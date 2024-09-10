@@ -1,0 +1,502 @@
+/*
+* Theme Name: Parallax
+* Theme URI: http://webfirethemes.com/parallax/
+* Description: Responsive one page scrolling weebly cms template
+* Author: Webfire Themes
+* Author URI: http://webfirethemes.com/
+* Version: 1.8
+*/
+
+@import url("font-awesome.min.css");
+
+/* Preloader */
+#preloader{position:fixed;top:0;left:0;right:0;bottom:0;background-color:#fff;z-index:99999}
+#status{width:200px;height:200px;position:absolute;left:50%;top:50%;background-image:url(ajax-loader.gif);background-repeat:no-repeat;background-position:center;margin:-100px 0 0 -100px}
+
+/* Standard Resets
+------------------------------- */
+html{font-family:sans-serif;font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;text-rendering:optimizelegibility}
+body{font-family:'Open Sans', 'Trebuchet MS', sans-serif;font-size:14px;line-height:1.5;-webkit-font-smoothing:antialiased;margin:0}
+article,aside,footer,header,nav,section,.accordion-wrp.current .accordion-content,.show,.primary-nav.open li{display:block}
+audio,video,.profile-social-icons li{display:inline-block}
+[hidden],.wsite-form-sublabel,[class*=span].hide,.row-fluid [class*=span].hide,.hide{display:none}
+legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+a:focus{outline-style:none;-moz-outline-style:none}
+a:active,a:hover{outline:0}
+dfn{font-style:italic}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-.5em}
+sub{bottom:-.25em}
+img{max-width:100%;width:auto\9;height:auto;vertical-align:middle;border:0;-ms-interpolation-mode:bicubic}
+em{font-style:normal}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+fieldset{margin:0 2px;padding:.35em .625em .75em}
+textarea{overflow:auto;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+.input-block-level{display:block;width:100%;min-height:30px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.visible-phone,.visible-tablet,.hidden-desktop{display:none!important}
+.invisible{visibility:hidden}
+.hidden{display:none;visibility:hidden}
+.visible-desktop{display:inherit!important}
+.fancybox-lock{overflow:auto!important}
+.wsite-multicol-table-wrap{margin:0!important}
+
+/* Clearfix
+------------------------------- */
+.clearfix:before,.clearfix:after,.row:before,.row:after,.row-fluid:before,.row-fluid:after,.container:before,.container:after,.container-fluid:before,.container-fluid:after{display:table;content:"";line-height:0}
+.clearfix:after,.row:after,.row-fluid:after,.container:after,.container-fluid:after{clear:both}
+.clearfix{zoom:1}
+
+/* Headings
+------------------------------- */
+h1,h2,h3,h4,h5,h6,p,blockquote,a,address,big,cite,em,img,strong,i,center,ol,ul,li,article,aside,footer,header,menu,nav,section{margin-top:0;margin-left:0;padding-top:0;padding-left:0}
+h1,h2,h3,h4,h5,h6{font-family:Montserrat, 'Trebuchet MS', sans-serif;text-transform:uppercase;margin:10px 0}
+h1{font-size:40px}
+h2{font-size:32px}
+h3{font-size:22px}
+h4{font-size:18px}
+h5{font-size:14px}
+h6{font-size:12px}
+h1,h2,h3,h4,h5,h6,p,.contact-info li{line-height:1.5}
+p{font-size:13px}
+.contact-info li{font-size:15px;list-style:none}
+
+/* Navigation
+-------------------------------*/
+nav#mainnav{width:100%;min-height:60px;box-shadow:0 1px 6px rgba(0, 0, 0, 0.2);border-bottom:1px solid #eee;overflow:hidden;position:fixed;top:0;left:0;z-index:999}
+/* Logo
+-------------------------------*/
+.logo {position: absolute;z-index:999;}
+/* Responsive Mobile Menu 
+------------------------------ */
+.rmm {display:block;position:relative;width:100%;padding:0px;float: right;line-height:19px !important;text-align: right;}
+.rmm * {-webkit-tap-highlight-color:transparent !important;}
+.rmm a {color:#757575;text-decoration:none;display:inline-block;}
+.rmm .rmm-main-list li:after, #icontent .rmm li:after{content:"•"; color: #757575;}
+.rmm .rmm-main-list li:last-child:after, #icontent .rmm li:last-child:after{content:""}
+
+.rmm .rmm-main-list li a, #icontent .rmm li a {font-size: 13px; font-weight: 700; padding: 30px 16px;text-transform: uppercase;}
+.rmm .rmm-main-list, .rmm .rmm-main-list li, #icontent .rmm li {margin:0px;padding:0px;}
+.rmm ul {display:block;width:auto !important;margin:0 auto !important;overflow:hidden;list-style:none;}
+/* sublevel menu */
+.rmm ul li ul, .rmm ul li ul li, .rmm ul li ul li a {display:none !important;height:0px !important;width:0px !important;}
+.rmm .rmm-main-list li, #icontent .rmm li {display:inline;margin:0px !important;}
+.rmm-toggled {display:none;position:relative;overflow:hidden;margin:0 auto !important;}
+.rmm-toggled .wsite-nav-0:before{display:none;}
+.rmm-button:hover {cursor:pointer;}
+.rmm .rmm-toggled ul {display:none;margin:0px !important;padding:0px !important;}
+.rmm .rmm-toggled ul li {display:block;margin:0 auto !important;width:100%;font-family:Montserrat, 'Trebuchet MS', sans-serif;text-transform:uppercase;text-decoration:none;padding:0}
+.rmm.graphite .rmm-main-list li a, #icontent .rmm li a {display:inline-block;background-color:#fff;}
+.rmm.graphite .rmm-toggled {width:95%;background-color:#fff;min-height:36px;}
+.rmm.graphite .rmm-toggled-controls {display:block;height:80px;color:#757575;text-align:left;position:relative;}
+.rmm.graphite .rmm-toggled-title {display: none;}
+.rmm.graphite .rmm-button {display:block;position:absolute;height:30px; width:35px;right:0;top:24px;border: none;}
+.rmm.graphite .rmm-button span {display:block;margin:0 auto 3px auto;height:2px;background:#fff;width:20px;}
+.rmm.graphite .rmm-button span:first-child{margin-top:9px;}
+.rmm.graphite .rmm-toggled ul li a {display:block;width:100%;padding:10px 0px 10px 0px;border-top:1px solid #eee;text-align: left;}
+
+/* Header
+------------------------------- */
+#icontent header{background-size:1500px}
+header{width:100%;height:740px;position:absolute;overflow:hidden;text-align:center;background:url(header.jpg) no-repeat top center fixed;background-size:1280px}
+header .pattern{height:740px}
+header .header-bg{height:740px;width:100%;background:url(vignette.png) no-repeat center center fixed;background-size:cover;position:absolute}
+header .container{height:100%;position:relative}
+
+.tall-header header{background:none !important;}
+.tall-header header, .tall-header header .pattern{height:670px}
+#icontent.tall-header header, #icontent.tall-header header .pattern{height:1300px;}
+#icontent.tall-header .wrapper{top:1300px}
+/* Slider
+------------------------------- */
+#icontent .banner{margin-top:0;}
+.banner {margin-top:80px;font-size: 18px;line-height: 24px;overflow: auto;position: relative;text-align: center;width: 100%}
+.banner ul{list-style: none outside none;width: 300%}
+.banner ul li{box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.1) inset;display: block;float: left;min-height: 400px;padding: 189px 0 0;width: 33%}
+#icontent .banner ul li{float: none;min-height: 300px;padding: 13px 0 0}
+#icontent .slide-one{margin-top:80px}
+
+/*Add slider / Banner Images
+Name you images the same name slide-1.jpg, slide-2.jpg ect.... and upload, the current images will be overwritten 
+*/
+/*slide 1*/
+.slide-one{background-image: url(slide-1.jpg); width: 25%}
+/*slide 2*/
+.slide-two{background-image: url(slide-2.jpg); width: 25%}
+/*slide 3*/
+.slide-three{background-image: url(slide-3.jpg); width: 25%}
+/*slide 4*/
+.slide-four{background-image: url(slide-4.jpg); width: 25%}
+
+.banner h1, .banner h2{color: #fff;font-size: 40px;line-height: 52px}
+.banner h1, .banner h2, .banner p, .banner a{position:relative;z-index:2}
+.banner p{color:#fff}
+.banner .btn{border: 2px solid rgba(255, 255, 255, 0.4);border-radius: 5px;clear: both;color: #fff;display: inline-block;font-size: 12px;font-weight: bold;margin: 25px 0 0;padding: 9px 22px 7px;text-decoration: none;text-transform: uppercase}
+.banner .btn:hover {background: none repeat scroll 0 0 rgba(255, 255, 255, 0.05)}
+.banner .btn i{font-size:15px;padding-left:5px}
+.banner .btn:active{}
+.banner .btn, .banner .dot{}
+.banner .dots{bottom: 20px;left: 0;position: absolute;right: 0}
+.banner .dots li {border: 2px solid #fff;border-radius: 6px;cursor: pointer;display: inline-block;height: 10px;margin: 0 4px;opacity: 0.4;text-indent: -999em;transition: background 0.5s ease 0s, opacity 0.5s ease 0s;width: 10px}
+.banner .dots li.active{background: none repeat scroll 0 0 #fff;opacity: 1}		
+
+/* Welcome Caption
+------------------------------- */
+#slidecaption{position:relative;margin-top:19%;border:none;text-transform:uppercase;line-height:1.3}
+#slidecaption h1 span{font-size:70px;margin:10px auto;padding:10px 20px}
+#slidecaption .sub-caption{font:22px 'Open Sans', 'Trebuchet MS', sans-serif;text-transform:none;letter-spacing:0;font-weight:400;margin:10px 0;padding:0 19%}
+#slidecaption h1 span,#parallax1 h2 span,#parallax2 h2 span,#parallax3 h2 span,.parallax-title span,.embed-container h2{text-shadow:4px 4px rgba(44, 62, 80, 0.9);}
+.sub-caption{font-size:18px;padding:0 271px}
+
+/* Paralax Color Overlay ,go instructions.html for help
+--------------------------------*/
+.pattern{background-color:rgba(44,62,80,0.9)}
+/* Drop Shadow for the parallax drop shadow text go instructions.html for help
+-------------------------------*/
+#slidecaption .sub-caption, .banner{text-shadow:2px 2px rgba(44, 62, 80, 0.9);}
+
+/* Text Shuffle
+------------------------------- */
+#shuffle-container{position:relative;min-height:90px;margin:0 auto;padding:200px 0 100px}
+
+/* Action Arrow Button
+------------------------------- */
+.home-btn{border:1px solid #fff;border-radius:100px 100px 100px 100px;color:#fff;display:inline-block;font-size:50px;height:80px;line-height:80px;width:80px;-moz-box-shadow:inset 0 0 8px #333;-webkit-box-shadow:inset 0 0 8px #333;box-shadow:inset 0 0 8px #333;}
+
+/* Standard Page Title
+------------------------------- */
+#page-title{font-size:15px;height:22px;margin-top:80px;padding:20px 0;text-transform:uppercase}
+#editMenu {z-index: 9999;}
+/* Layout
+------------------------------- */
+.row{zoom:1;margin:0 auto}
+[class*=span]{float:left;min-height:1px}
+.container{width:1170px;margin-right:auto;margin-left:auto;zoom:1}
+.span12{width:1170px}
+.span11{width:860px}
+.span10{width:780px}
+.span9{width:700px}
+.span8{width:620px}
+.span7{width:540px}
+.span6{width:460px}
+.span5{width:380px}
+.span4{width:300px}
+.span3{width:220px}
+.span2{width:140px}
+.span1{width:60px}
+.wsite-multicol-col{padding-left:-5px !important;padding-right:15px !important}
+
+/* Content
+------------------------------- */
+.content{position:relative;min-height:200px;margin-top:0}
+.content h2{font-size:16px;letter-spacing:1px}
+.standard-page header{background:none}
+.standard-page .wrapper{top:0}
+.wrapper{position:absolute;top:700px;width:100%}
+.page{padding-top:120px;padding-bottom:120px}
+#secondlist ul li{list-style:none outside none!important}
+#icontent .container,#icontent .span12{width:980px}
+
+/* Menu Icon
+------------------------------- */
+.wsite-nav-0:before{font-family:"FontAwesome";content:"\f015";color:#757575;position:absolute;top:1px;z-index:2}
+.wsite-nav-0 i:hover{color:#757575}
+
+/* Theme Elements
+------------------------------- */
+.center-text{text-align:center}
+.big[class^=icon-],.big[class*=" icon-"]{font-size:90px}
+.med[class^=icon-],.med[class*=" icon-"]{font-size:60px}
+.wsite-theme-dark hr.styled-hr{box-shadow:none}
+.vertical-text{display:table-cell;vertical-align:middle;width:50%}
+.pattern{width:100%;position:absolute}
+html .wsite-theme-dark .galleryimageborder,html .wsite-theme-dark a .galleryimageborder,.profile img,.pricing-title{margin-bottom:20px;border-top-left-radius:4px;border-top-right-radius:4px}
+a,a:hover{text-decoration:none}
+.profile,.accordion-wrp h6,.toggle-wrp h6,.services,.accordion-wrp .accordion-content,.toggle-wrp .toggle-content,.block{margin:10px}
+.contact-info i,.tabs i{margin-right:10px}
+.contact-info i{font-size:30px}
+.wsite-form-label,.form-required,.folio-desc span{font-size:11px}
+.features{margin:0;padding:0}
+.features li{list-style:none!important;width:80%;margin:0 auto}
+.features li p{margin-bottom:0;padding:15px 0}
+.content .contact-info li{padding-left:5px}
+.title-block{margin:10px;padding:20px 30px}
+
+/* Parallax
+------------------------------- */
+/* Background 1 - call your images bg1,bg2,bg3 and upload images to weebly */
+.bg1{background:url(bg1.jpg) 50% 50% repeat-y fixed;width:100%;height:100%;position:absolute;background-size:160%;-webkit-backface-visibility:visible;margin:0 auto}
+/* Background 2 */
+.bg2{background:url(bg2.jpg) 50% 50% repeat-y fixed;width:100%;height:100%;position:absolute;background-size:120%;-webkit-backface-visibility:visible;margin:0 auto}
+/* Background 3 */
+.bg3{background:url(bg3.jpg) 50% 50% repeat-y fixed;width:100%;height:100%;position:absolute;background-size:120%;-webkit-backface-visibility:visible;margin:0 auto}
+
+#parallax1,#parallax2{width:100%;height:500px;position:relative;overflow:hidden}
+#parallax1 .vertical-text,#parallax2 .vertical-text,#parallax1 .pattern,#parallax2 .pattern{height:500px}
+#parallax1 i{margin-right:5px}
+#parallax2 .clients{z-index:200;position:relative;margin-top:60px}
+#parallax3{width:100%;height:620px;position:relative;overflow:hidden;text-align:center}
+#parallax3 .pattern{height:620px}
+#parallax3 h2{z-index:10;position:relative;margin-top:60px;margin-bottom:30px}
+#parallax3 .span8{float:none;margin:0 auto}
+.clients li{display:inline-block;margin:30px}
+#icontent .clients li{margin:5px}
+#parallax3 .span10{float:none;margin:0 auto}
+#icontent #parallax3 .span10{width:668px}
+.embed-container{width:100%}
+
+/* Parallax Titles */
+#parallax1 h2,#parallax2 h2,#parallax3 h2,.parallax-title{z-index:10;position:relative;font-size:32px;font-family:Montserrat, 'Trebuchet MS', sans-serif;text-align:center;text-transform:uppercase;letter-spacing:2px;padding:0 13%}
+.title{font-family:Montserrat,'Trebuchet MS',sans-serif;font-size:22px;height:1px;letter-spacing:2px;line-height:0.1;margin:0 auto;position:relative;text-align:center;text-transform:uppercase;width:38%}
+.title span{padding:8px 14px}
+.title span span{border:none!important}
+#icontent .title span span{padding-left:1px!important}
+
+/* Title Widget
+------------------------------- */
+.head-title{padding:0 0 40px}
+.head-title h1{font-size:42px;font-weight:800;margin-top:-10px}
+.heading h2{font-size:55px;font-weight:300;line-height:55px;padding-bottom:0}
+.head-title h1:after{content:"";display:block;height:3px;margin:0 0 27px;width:100px}
+.head-title h5{font-weight:normal}
+
+/* Service Boxes
+------------------------------- */
+.block{display:block;padding:30px 25px}
+.block-wrapper{border-radius:50% 50% 50% 50%;text-align:center;width:136px;height:136px;display:block;margin:0 auto}
+.block .block-inner [class^=icon-]{border-radius:50% 50% 50% 50%;display:block;height:136px;line-height:136px;text-align:center;width:136px;margin:0 auto}
+.block h3,.block p{margin:30px 0}
+.block:hover .block-inner [class^=icon-],.wsite-social-facebook:hover,.wsite-editor .wsite-social-facebook:hover,
+.wsite-social-twitter:hover,.wsite-editor .wsite-social-twitter:hover,.wsite-social-linkedin:hover,
+.wsite-editor .wsite-social-linkedin:hover,.wsite-social-flickr:hover,.wsite-editor .wsite-social-flickr:hover,
+.wsite-social-vimeo:hover,.wsite-editor .wsite-social-vimeo:hover,.wsite-social-youtube:hover,
+.wsite-editor .wsite-social-youtube:hover{-moz-transform:scale(1) rotate(-360deg);-ms-transform:scale(1) rotate(-360deg);-webkit-transform:scale(1) rotate(-360deg);-o-transform:scale(1) rotate(-360deg);transform:scale(1) rotate(-360deg)}
+
+/* Tabs
+------------------------------- */
+.tabs{margin:10px 0 40px}
+.tabs ul{width:100%;margin-bottom:10px;overflow:hidden;-webkit-font-smoothing:antialiased}
+.tabs ul li{display:inline-block;padding:15px 23px;margin-right:5px;background:#fff;cursor:pointer;text-transform:uppercase;-webkit-transition:all .1s linear;-moz-transition:all .1s linear;-o-transition:all .1s linear;transition:all .1s linear}
+.tabs ul li:last-child{margin-right:0}
+.tabs .tab-content{display:none;font-family:'Trebuchet MS', sans-serif;padding:22px 20px;position:absolute;top:0;left:0}
+.tabs .tab-content.active{display:block;position:relative}
+.tabs .tab-content-wrp{position:relative}
+
+/* Team Member
+------------------------------- */
+.profile{max-width:300px;padding-bottom:20px}
+.profile-name{font-family:Montserrat, 'Trebuchet MS', sans-serif;font-size:16px;letter-spacing:1px;line-height:1.2;text-transform:uppercase;margin:0 20px}
+.profile-job{font-family:Montserrat, 'Trebuchet MS', sans-serif;font-size:10px;text-transform:uppercase;margin:0 20px 16px}
+.profile-desc{font-size:13px;margin:0 20px 23px}
+.profile-social-icons{margin:0 20px}
+.profile-social-icons li a{font-size:15px;margin-right:10px;border:none}
+
+/* Info Box
+------------------------------- */
+.info-block{margin:0;padding:20px 30px;overflow:hidden;position:relative}
+.info-block img{display:block;width:100%;max-width:intrinsic;margin:5px 0 35px}
+.info-inner{position:relative;padding-right:30%}
+.info-block a.wsite-button{position:absolute;right:40px;top:28%}
+#icontent .info-block .span11{width:690px}
+
+/* Accordion
+------------------------------- */
+.accordion,.toggle{margin-bottom:40px}
+.accordion-wrp h6{display:block;position:relative;overflow:hidden;margin-bottom:20px;cursor:pointer;font-size:14px;padding:18px 20px 16px}
+.accordion-wrp .accordion-content{display:none;padding:16px 20px 25px}
+
+/* Pricing Table
+------------------------------- */
+.pricing-column{text-align:center;display:block;margin:0 5px;padding:0}
+.pricing-title{font-size:25px;text-transform:uppercase;padding:10px 0 12px}
+.price{font-size:14px;padding:5px 0 25px}
+.price span{font-size:45px;font-weight:700;line-height:1}
+.price sup{font-size:25px;line-height:0}
+.pricing-footer{padding:30px 0}
+
+/* Blockquote
+------------------------------- */
+blockquote{line-height:168%;-webkit-font-smoothing:antialiased;margin:30px 0;padding:10px 0 6px 20px}
+blockquote p{font-size:18px;font-weight:700;line-height:1.3;margin-bottom:6px}
+
+/* Social Icons
+------------------------------- */
+.wsite-social, .wsite-editor .wsite-social{margin:0 auto;text-align:center;white-space:nowrap;width:100%}
+.wsite-social-facebook,.wsite-editor .wsite-social-facebook,.wsite-social-twitter,.wsite-editor .wsite-social-twitter,.wsite-social-linkedin,.wsite-editor .wsite-social-linkedin,.wsite-social-flickr,.wsite-editor .wsite-social-flickr,.wsite-social-vimeo,.wsite-editor .wsite-social-vimeo,.wsite-social-youtube,.wsite-editor .wsite-social-youtube{height:64px;width:64px;border:1px solid #fff;margin:0 40px;padding:10px}
+.wsite-social-facebook,.wsite-editor .wsite-social-facebook{background:url(para-facebook.png) no-repeat 50% 50% transparent}
+.wsite-social-twitter,.wsite-editor .wsite-social-twitter{background:url(para-twitter.png) no-repeat 50% 50% transparent}
+.wsite-social-linkedin,.wsite-editor .wsite-social-linkedin{background:url(para-linkedin.png) no-repeat 50% 50% transparent}
+.wsite-social-flickr,.wsite-editor .wsite-social-flickr{background:url(para-flickr.png) no-repeat 50% 50% transparent}
+.wsite-social-vimeo,.wsite-editor .wsite-social-vimeo{background:url(para-vimeo.png) no-repeat 50% 50% transparent}
+.wsite-social-youtube,.wsite-editor .wsite-social-youtube{background:url(para-youtube.png) no-repeat 50% 50% transparent}
+.content .wsite-social-facebook,.wsite-editor .wsite-social-facebook,.content .wsite-social-twitter,.wsite-editor .wsite-social-twitter,.content .wsite-social-linkedin,.wsite-editor .wsite-social-linkedin,.content .wsite-social-flickr,.wsite-editor .wsite-social-flickr,.content .wsite-social-vimeo,.wsite-editor .wsite-social-vimeo,.content .wsite-social-youtube,.content .wsite-editor .wsite-social-youtube{height:32px;width:32px;border:none;margin:0}
+.content .wsite-social-facebook,.content .wsite-editor .content .wsite-social-facebook{background:url(content-facebook.png) no-repeat 50% 50% transparent}
+.content .wsite-social-twitter,.content .wsite-editor .content .wsite-social-twitter{background:url(content-twitter.png) no-repeat 50% 50% transparent}
+.content .wsite-social-linkedin,.content .wsite-editor .content .wsite-social-linkedin{background:url(content-linkedin.png) no-repeat 50% 50% transparent}
+.content .wsite-social-flickr,.content .wsite-editor .content.wsite-social-flickr{background:url(content-flickr.png) no-repeat 50% 50% transparent}
+.content .wsite-social-vimeo,.content .wsite-editor .content .wsite-social-vimeo{background:url(content-vimeo.png) no-repeat 50% 50% transparent}
+.content .wsite-social-youtube,.content .wsite-editor .content .wsite-social-youtube{background:url(content-youtube.png) no-repeat 50% 50% transparent}
+
+/* Portfolio
+------------------------------- */
+.isotope{margin-top:40px}
+.post img.image {width:100%}
+#posts .span4{display:inline-block;float:none;margin-bottom:0;overflow:visible;padding:0;vertical-align:top;width:290px}
+#posts .span4 .profile-photo .wsite-image-border-hairline a img, .project-wrp .profile-photo .wsite-image-border-none a img,
+#posts .span4 .profile-photo .wsite-image-border-thin a img,.project-wrp .profile-photo .wsite-image-border-medium a img,
+#posts .span4 .profile-photo .wsite-image-border-thick a img{height:100%;line-height:0;overflow:hidden;position:relative;width:100%;}
+#icontent #portfolio [class*="span"]{margin-left:0}
+#icontent #portfolio .span12{width:1020px}
+#icontent #posts .span4 {margin-right:40px;margin-top:60px;position:relative}
+#posts .span4 .profile-photo{height:auto;width:100%}
+
+#icontent .place{display:block;height:auto;left:4px;max-width:282px;position:absolute;top:4px}
+.place{display:none}
+#posts .new-editor .weebly-content-area .inside-active > .element-box {height:277px;}
+
+.option-set{text-align:center}
+.option-set li{display:inline-block;margin-right:15px;font-family:Montserrat, 'Trebuchet MS', sans-serif;text-transform:uppercase;background:#fff;border:1px solid #eee;cursor:pointer!important;list-style-type:none}
+.option-set li a{display:block;color:#333;border:none;padding:15px 21px}
+.option-set li a.selected,.option-set li a:hover{background:#E56C69;color:#fff}
+
+/* Dividers
+------------------------------- */
+.divider-empty{width:100%;display:block}
+.marg-10{padding:5px 0}
+.marg-20{padding:10px 0}
+.marg-30{padding:15px 0}
+.marg-40{padding:20px 0}
+.marg-50{padding:25px 0}
+.marg-60{padding:30px 0}
+.marg-70{padding:35px 0}
+
+/* Subnav icon widget
+------------------------------- */
+.subnav-widget{margin:20px 0}
+.subnav-widget i{margin-right:5px}
+.subnav-widget li a,#tab6 .subnav-widget li a{line-height:2.1em}
+
+/* Buttons
+------------------------------- */
+.wsite-button-inner,.wsite-editor .wsite-button-inner{background:none!important;padding:4px 15px 4px 30px}
+.wsite-button-large .wsite-button-inner,.wsite-editor .wsite-button-large .wsite-button-inner{padding:7px 20px 7px 33px}
+
+/* Tag Cloud
+------------------------------- */
+.tag-cloud{display:block;padding:3px 0 6px;margin:20px 0}
+.tag-cloud a{display:inline-block;font-size:13px !important;margin:20px 0 0;padding:19px}
+
+/* CSS3 Transitions
+------------------------------- */
+.isotope, .isotope .item {-webkit-transition-duration: 0.8s;-moz-transition-duration:0.8s;-ms-transition-duration:0.8s;-o-transition-duration:0.8s;transition-duration:0.8s}
+.isotope {-webkit-transition-property:height,width;-moz-transition-property: height,width;-ms-transition-property:height,width;-o-transition-property:height,width;transition-property:height,width}
+.isotope .item {-webkit-transition-property: -webkit-transform,opacity;-moz-transition-property:-moz-transform,opacity;-ms-transition-property:-ms-transform,opacity;-o-transition-property:top,left,opacity;transition-property:transform, opacity}
+
+a,i,i:hover,h6:hover,li,li:hover,.block:hover,.block-wrapper,.wsite-social-facebook,.wsite-editor .wsite-social-facebook,.wsite-social-twitter,.wsite-editor .wsite-social-twitter,.wsite-social-linkedin,.wsite-editor .wsite-social-linkedin,.wsite-social-flickr,.wsite-editor .wsite-social-flickr,.wsite-social-vimeo,.wsite-editor .wsite-social-vimeo,.wsite-social-youtube,.wsite-editor .wsite-social-youtube,.wsite-social-facebook:hover,.wsite-editor .wsite-social-facebook:hover,.wsite-social-twitter:hover,.wsite-editor .wsite-social-twitter:hover,.wsite-social-linkedin:hover,.wsite-editor .wsite-social-linkedin:hover,.wsite-social-flickr:hover,.wsite-editor .wsite-social-flickr:hover,.wsite-social-vimeo:hover,.wsite-editor .wsite-social-vimeo:hover,.wsite-social-youtube:hover,.wsite-editor .wsite-social-youtube:hover,ul#filteroptions li a,ul#filteroptions li a:hover{-webkit-transition:all .3s linear;-moz-transition:all .3s linear;-o-transition:all .3s linear;-ms-transition:all .3s linear;transition:all .3s linear}
+.block-wrapper,.block:hover .block-wrapper,.block .block-inner [class^=icon-]{-webkit-transition:all .45s cubic-bezier(0.445,0.05,0.55,0.95) 0;-moz-transition:all .45s cubic-bezier(0.445,0.05,0.55,0.95) 0;-o-transition:all .45s cubic-bezier(0.445,0.05,0.55,0.95) 0;-ms-transition:all .45s cubic-bezier(0.445,0.05,0.55,0.95) 0;transition:all .45s cubic-bezier(0.445,0.05,0.55,0.95) 0}
+.block .block-inner [class^=icon-]{-webkit-transform:scale(0.5) rotate(0deg);-moz-transform:scale(0.5) rotate(0deg);-o-transform:scale(0.5) rotate(0deg);-ms-transform:scale(0.5) rotate(0deg);transform:scale(0.5) rotate(0deg)}
+.home-btn:hover{-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-o-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}
+
+/* Contact Form
+------------------------------- */
+.weebly-form-input,.wsite-form-input,.wsite-search-input,.wsite-editor .weebly-form-input,.wsite-editor .wsite-form-input,.wsite-editor .wsite-search-input{background:none;border:none}
+.wsite-form-field,.wsite-name-field{width:100%;max-width:100%}
+.wsite-name-field .wsite-form-input-first-name{width:44%}
+.wsite-form-field div.wsite-form-input-container .wsite-form-input{height:60px;margin:10px 0}
+.form-required{font-size:8px}
+.wsite-form-field div.wsite-form-input-container .wsite-form-input{color:#959595;font-size:15px}
+
+/* Blog
+------------------------------- */
+.blog-post .blog-date .date-text{position:relative;margin:0 0 0 20px}
+.blog-post .blog-date .date-text:before{position:absolute;font-family:FontAwesome;top:0;left:-17px;content:"\f073 "}
+
+/* Copyright
+------------------------------- */
+#copyright{padding:20px 0}
+#copyright a:hover{text-decoration:none;border:none}
+#copyright .to-top{text-align:right}
+#copyright i{font-size:20px}
+#copyright span4,.accordion i,.toggle i,[class*=span].pull-right,.row-fluid [class*=span].pull-right,.pull-right,.folio-desc i{float:right}
+
+#editMenu{z-index:999 !important;}
+
+/*COLORS---------------------------------------------------------------------------------------------------------*/
+
+/* Change the main text color of the whole site exept footer ( #757575 grey by default )
+------------------------------- */
+body,.content .contact-info li p,a:hover,h1,h2,h3,h4,h5,h6,.block .block-inner,.subnav-widget li a,.features li p,blockquote,.tag-cloud a,p,.weebly-form-label,.wsite-form-label,.form-required{color:#757575}
+.head-title h5{color:#959595}
+/* #fff white text color by default for parallax and coloured backgrounds )
+------------------------------- */
+#slidecaption,.welcome-title,#parallax1,#parallax2,#parallax3,#parallax4,#parallax1 h2,#parallax2 h2,#parallax3 h2,#parallax4 h2,
+.parallax-title,.white-text,.accordion-wrp h6,.accordion-wrp h6:hover i,.accordion-wrp.current i,.tabs ul li.current,
+.pricing-column,.pricing-title,.title-block,.inner-heading,#copyright,#copyright a,
+.title-block p,#page-title,.info-block,.ib-text h4,.ib-text p,.tabs ul li:hover,.block:hover .block-inner [class^=icon-]
+{color:#fff !important}
+/* Change the main background color of the whole site exept footer ( #fff white by default )
+------------------------------- */
+nav#mainnav,.primary-nav,.white-bg,.title span,.tabs .tab-content,.tag-cloud a{background:#fff}
+/* Change the main color of the whole site ( #E56C69 red by default )
+------------------------------- */
+.red-bg,.head-title h1:after,#copyright,.block:hover .block-wrapper,.accordion-wrp h6,.tabs ul li.current,.tabs ul li:hover,.wsite-button,.wsite-editor .wsite-button,.wsite-button-large,.wsite-button,.wsite-editor .wsite-button-large{background:#E56C69}
+a,.rmm li a:hover,.primary-nav li a:hover,.profile li a,.content .subnav-widget li a:hover{color:#E56C69}
+.accordion-wrp h6,.tabs ul li.current,.tabs ul li:hover,.tag-cloud a:hover{border:1px solid #E56C69}
+blockquote{border-left:4px solid #E56C69 !important}
+/* Change the secondary color of the whole site ( #D45B58 dark red by default )
+------------------------------- */
+.rmm.graphite .rmm-button,.nav-button,.nav-button.open{background-color:#E56C69;border:none}
+.block:hover .block-wrapper{border:8px solid #D45B58}
+.pricing-title .red-bg{border-bottom:3px solid #D45B58}
+
+/* Change the footer color ( #2C3E50 dark blue by default )
+------------------------------- */
+.black-bg{background:#333}
+.grey-bg{background:#f5f5f5}
+.white-bg{background:#fff}
+
+/* General Colors
+------------------------------- */
+header,#parallax1,#parallax2,#parallax3,#parallax4{background-color:#333}
+.home-btn:hover{background-color: rgba(0, 0, 0, 0.1);color:#fff}
+#page-title{background:#2C3E50}
+.primary-nav li a{border-top:1px solid #eee}
+.wsite-theme-light hr.styled-hr,hr.styled-hr{background-color:#e8e8e8}
+/*widgets*/
+.profile,.block{background:#fff;border:1px solid #eee}
+.profile-job, #tab6 .contact-info i{color:#aaa}
+.accordion-wrp.current .accordion-content,.tabs ul li{background:#fff;border:1px solid #e3e3e3}
+.tabs .tab-content{background:#fff;border:1px solid #e3e3e3;border-bottom:3px solid #e3e3e3}
+.block-wrapper{border:8px solid #757575}
+.tag-cloud a,.accordion-wrp.current .accordion-content,.tabs ul li{border:1px solid #e3e3e3}
+.wsite-form-field div.wsite-form-input-container .wsite-form-input{background:#444444}
+/*buttons colors( RED main button bg #E56C69 - #D45B58 hovers and borders),( BLUE main button bg #40878A - #397174 hovers and borders)*/
+.wsite-button,.wsite-editor .wsite-button,.wsite-button-large,.wsite-button,.wsite-editor .wsite-button-large{border-bottom:4px solid #D45B58;color:#fff!important}
+.wsite-button-highlight,.wsite-editor .wsite-button-highlight,.wsite-button-large.wsite-button-highlight{background:#40878A;border-bottom:4px solid #397174;color:#fff!important}
+.wsite-button:hover,.wsite-editor .wsite-button:hover,.wsite-button-large:hover{background:#D45B58;color:#fff;border-bottom:4px solid #D45B58}
+.wsite-button-highlight:hover,.wsite-button-large.wsite-button-highlight:hover{background:#397174;color:#fff;border-bottom:4px solid #397174}
+/*Pricing tables*/
+.pricing-column{background-color:#fff;border:1px solid #eee}
+.price{border-bottom:1px solid #eee;color:#2C3E50}
+.features li{border-bottom:1px solid #eee}
+.rmm-button,.block,.title span,.profile,.accordion-wrp h6,.toggle-wrp h6,.services,.title-block,.accordion-wrp .accordion-content,.toggle-wrp .toggle-content,.option-set li,.option-set li a,.custom-blocks .block a,.pricing-column,.tile-block,.info-block,.tabs ul li,.tabs .tab-content,.pr-tb-col,.nav-button,.wsite-form-field div.wsite-form-input-container .wsite-form-input,.accordion-wrp.current .accordion-content,.wsite-button,.wsite-editor .wsite-button,.wsite-button-large,.wsite-button,.wsite-editor .wsite-button-large,.tag-cloud a{-webkit-border-radius:4px 4px 4px 4px;-moz-border-radius:4px;-o-border-radius:4px 4px 4px 4px;-ms-border-radius:4px 4px 4px 4px;border-radius:4px 4px 4px 4px}
+.block,.profile,.pricing-column{box-shadow:-9px 0 5px -5px rgba(0, 0, 0, 0.03), 9px 0 5px -5px rgba(0, 0, 0, 0.03);-moz-box-shadow:-9px 0 5px -5px rgba(0, 0, 0, 0.03), 9px 0 5px -5px rgba(0, 0, 0, 0.03);-webkit-shadow:-9px 0 5px -5px rgba(0, 0, 0, 0.03), 9px 0 5px -5px rgba(0, 0, 0, 0.03);-ms-shadow:-9px 0 5px -5px rgba(0, 0, 0, 0.03), 9px 0 5px -5px rgba(0, 0, 0, 0.03);-0-box-shadow:-9px 0 5px -5px rgba(0, 0, 0, 0.03), 9px 0 5px -5px rgba(0, 0, 0, 0.03)}
+
+/*footer*/
+#tab6 .tag-cloud a{background:none;border:1px solid #757575}
+#tab6 .tag-cloud a:hover{color:#fff;border:1px solid #fff}
+#tab6 .head-title h1:after{background:#757575 !important}
+
+/*Coming soon*/
+.coming-soon-page #slidecaption{margin-top:13%}
+#clock ul{margin:0 auto;list-style:none;text-align:center} 
+#clock li{background:rgba(0,0,0,0.2);border:10px solid rgba(0,0,0,0.2);border-radius:100% 100% 100% 100%;color:#fff;display:inline-block;font-size:12px;height:100px;line-height:0;list-style:none outside none!important;margin:20px;padding:20px;position:relative;text-shadow:1px 1px rgba(0,0,0,0.2);width:100px} 
+#clock li span{color:#FFF;display:block;font-size:50px;font-weight:700;line-height:80px;list-style:none outside none!important;margin-bottom:10px;text-shadow:2px 2px rgba(0,0,0,0.2)}
+#icontent #preloader {display:none}
+
+/*Helper*/
+#icontent .helper{display:block !important}
+.helper{display:none}
+.helper{background:#eee;color:#757575;padding:10px;border-radius:4px 4px 4px 4px}
+.helper i{margin:0 5px}
