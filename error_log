@@ -1,0 +1,5 @@
+[22-Jun-2024 04:32:17 America/Boise] PHP Warning:  Undefined array key "HTTP_REFERER" in /home1/bonichol/public_html/login.php on line 13
+[22-Jun-2024 04:32:17 America/Boise] PHP Warning:  Undefined array key "redirect" in /home1/bonichol/public_html/login.php on line 15
+[22-Jun-2024 04:32:17 America/Boise] PHP Warning:  Undefined array key "redirect" in /home1/bonichol/public_html/login.php on line 39
+[22-Jun-2024 04:32:18 America/Boise] PHP Warning:  Undefined array key "HTTP_REFERER" in /home1/bonichol/public_html/login.php on line 13
+[22-Jun-2024 04:32:18 America/Boise] PHP Warning:  Undefined array key "redirect" in /home1/bonichol/public_html/login.php on line 15

@@ -1,0 +1,6 @@
+User-agent: *
+Disallow:
+Disallow: /cgi-bin/
+Disallow: /404
+
+Sitemap: https://bonicholslaw.com/sitemap.xml
