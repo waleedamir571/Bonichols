@@ -282,6 +282,7 @@
                                 <div class="col-lg-12">
                                     <div class="fldset">
                                         <input name="submit" id="submit-btn-modal2" type="submit" >
+                                         <!-- <button name="submit" class="btn btn-primary" id="submit-btn-modal2" type="submit">submit</button> -->
                                     </div>
                                 </div>
                             </div>
