@@ -239,9 +239,9 @@
                     <div class="ban-form">
                         <!--<form class="form-get-quote" id="ordernow-form" action="https://agilewebstudios.com/shopify/javascript;" method="post">-->
                         <form method="POST" action="backend/action/action">
-                            <input type="hidden" name="animationForms" value="modalForm">
-                            <input type="hidden" name="cta" class="cta" value="">
-                            <div class="alert alert-danger error" style="display: none;"></div>
+                            <input type="hidden" name="type" value="sideForm">
+                            <!-- <input type="hidden" name="cta" class="cta" value="">
+                            <div class="alert alert-danger error" style="display: none;"></div> -->
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="fldset">
@@ -281,8 +281,7 @@
 
                                 <div class="col-lg-12">
                                     <div class="fldset">
-                                        <input name="submit" id="submit-btn-modal2" type="submit" class="recaptchaview"
-                                            disabled>
+                                        <input name="submit" id="submit-btn-modal2" type="submit" >
                                     </div>
                                 </div>
                             </div>
