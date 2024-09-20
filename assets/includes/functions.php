@@ -61,6 +61,13 @@ switch ($functions) {
         $url = $baseUrl . "blog";
 
         break;
+
+        case "thank-you.php";
+        $title_name = " Thank You | Bo Nichols Law ";
+        $description = "Thank You";
+        $url = $baseUrl . "thank-you";
+
+        break;
         
   
 

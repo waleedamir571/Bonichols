@@ -133,30 +133,10 @@
 		<!-- End Clients Section -->
 
 		<!-- Main Footer -->
-		<?php include('assets/includes/footer.php'); ?>
+	
 
 	</div>
 	<!--End pagewrapper-->
 
 	<!--Scroll to top-->
-	<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-up"></span></div>
-
-	<script src="assets/js/jquery.js"></script>
-	<script src="assets/js/popper.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-	<script src="assets/js/jquery.fancybox.js"></script>
-	<script src="assets/js/appear.js"></script>
-	<script src="assets/js/parallax.min.js"></script>
-	<script src="assets/js/tilt.jquery.min.js"></script>
-	<script src="assets/js/jquery.paroller.min.js"></script>
-	<script src="assets/js/owl.js"></script>
-	<script src="assets/js/mixitup.js"></script>
-	<script src="assets/js/wow.js"></script>
-	<script src="assets/js/validate.js"></script>
-	<script src="assets/js/nav-tool.js"></script>
-	<script src="assets/js/jquery-ui.js"></script>
-	<script src="assets/js/script.js"></script>
-</body>
-
-</html>
+	<?php include('assets/includes/footer.php'); ?>

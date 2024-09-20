@@ -1155,32 +1155,8 @@
 		<!-- End Clients Section -->
 
 		<!-- Main Footer -->
-		<?php include('assets/includes/footer.php'); ?>
+		
 
 	</div>
 	<!--End pagewrapper-->
-	<!--Scroll to top-->
-	<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-up"></span></div>
-
-	<script src="assets/js/jquery.js"></script>
-
-	<script src="assets/js/popper.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-	<script src="assets/js/jquery.fancybox.js"></script>
-	<script src="assets/js/appear.js"></script>
-	<script src="assets/js/parallax.min.js"></script>
-	<script src="assets/js/tilt.jquery.min.js"></script>
-	<script src="assets/js/jquery.paroller.min.js"></script>
-	<script src="assets/js/owl.js"></script>
-	<script src="assets/js/wow.js"></script>
-	<script src="assets/js/nav-tool.js"></script>
-	<script src="assets/js/jquery-ui.js"></script>
-	<script src="assets/js/script.js"></script>
-	<script src="assets/js/color-settings.js"></script>
-
-</body>
-
-<!-- Mirrored from expert-themes.com/html/gym/testimonial.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 10 Jul 2020 10:17:58 GMT -->
-
-</html>
+	<?php include('assets/includes/footer.php'); ?>
