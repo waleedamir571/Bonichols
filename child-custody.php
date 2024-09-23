@@ -140,3 +140,17 @@
 
 	<!--Scroll to top-->
 	<?php include('assets/includes/footer.php'); ?>
+
+
+
+
+	<div class="col-md-6 offset-md-2">
+
+
+
+
+
+
+
+		
+	</div>

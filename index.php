@@ -26,7 +26,7 @@
 									<span class="txt">BOOK AN APPOINTMENT</span>
 								</a>
 							</div>
-							
+
 							<a data-fancybox="" href="http://bonicholslaw.com/video.mp4" class="video-box"><span
 									class="fa fa-play"><i class="ripple"></i></span></a>
 						</div>
@@ -42,8 +42,9 @@
 						<div class="content-boxed my-txttt">
 							<h2 class="">Family <br>Law Specialist<br> in Houston</h2>
 							<div class="link-box clearfix">
-								<div class="btn-one-outer"><a href="javascript:void(0);" class="theme-btn btn-style-one"><span
-											class="txt">BOOK AN APPOINTMENT</span></a></div>
+								<div class="btn-one-outer"><a href="javascript:void(0);"
+										class="theme-btn btn-style-one"><span class="txt">BOOK AN APPOINTMENT</span></a>
+								</div>
 							</div>
 							<a data-fancybox="" href="http://bonicholslaw.com/video.mp4" class="video-box"><span
 									class="fa fa-play"><i class="ripple"></i></span></a>
@@ -201,6 +202,29 @@
 											<div class="upper-box">
 												<div class="author-image">
 												</div>
+												<div class="title">Very professional and extremely knowledgeable</div>
+												<h6>Owner – Managing Partner</h6>
+												<div class="rating">
+													<span class="fa fa-star"></span>
+													<span class="fa fa-star"></span>
+													<span class="fa fa-star"></span>
+													<span class="fa fa-star"></span>
+													<span class="fa fa-star"></span>
+												</div>
+											</div>
+											<div class="quote-icon flaticon-right-quote"></div>
+											<div class="text">Mr. Nichols came highly recommended from some great folks
+												that work in the law industry. His knowledge and advice provided me
+												direction and solace necessary to continue with my case. I would highly
+												recommend consulting with Mr. Nichols before you hire another attorney.
+												You'll be glad you did!</div>
+										</div>
+									</div>
+									<div class="testimonial-block-two">
+										<div class="inner-box">
+											<div class="upper-box">
+												<div class="author-image">
+												</div>
 												<div class="title">A clear expert in his field!!!</div>
 												<h6>Hired attorney</h6>
 												<div class="rating">
@@ -212,7 +236,35 @@
 												</div>
 											</div>
 											<div class="quote-icon flaticon-right-quote"></div>
-											<div class="text">Bo was extremely thorough in his handling of my matter. He
+											<div class="text">Bo's experience, knowledge, wisdom and courage as a lawyer
+												are exceptional. His character as a man is even more impressive. Family
+												legal matters are tough. Bo was always prepared, always professional,
+												always dignified, and always compassionate in our family law case. But
+												Bo was not satisfied just to win -- he did that easily. More
+												importantly, Bo was committed to laying the ground work to rebuild and
+												restore as well. He understands the need for the parties to be able to
+												communicate and continue to function after a divorce, albeit in a
+												different format. Bo wisely guided us to solutions that were in the best
+												interests of the children and the adults. Thank you Counsellor!</div>
+										</div>
+									</div>
+									<div class="testimonial-block-two">
+										<div class="inner-box">
+											<div class="upper-box">
+												<div class="author-image">
+												</div>
+												<div class="title">A clear expert in his field!!!</div>
+												<h6>Hired attorney</h6>
+												<div class="rating">
+													<span class="fa fa-star"></span>
+													<span class="fa fa-star"></span>
+													<span class="fa fa-star"></span>
+													<span class="fa fa-star"></span>
+													<span class="fa fa-star"></span>
+												</div>
+											</div>
+											<div class="quote-icon flaticon-right-quote"></div>
+											<div class="text">Bo was extremely thorough in his handling of my matter. He	
 												clearly outlined the information he needed regarding my suit and
 												explained why it was important. He planned for all contingencies to
 												ensure the best possible outcome in resolving the matter. His
@@ -780,7 +832,7 @@
 
 
 				<!-- Contact Form Section -->
-			
+
 				<!-- End Contact Form Section -->
 			</div>
 		</section>
@@ -845,72 +897,72 @@
 
 	</section> -->
 
-	<section class="benefits-section">
-		<div class="side-image"></div>
-		<div class="auto-container">
-			<div class="row clearfix">
+		<section class="benefits-section">
+			<div class="side-image"></div>
+			<div class="auto-container">
+				<div class="row clearfix">
 
-				<!-- Content Column -->
-				<div class="content-column col-lg-6 col-md-12 col-sm-12 text-container">
-					<div class="inner-column">
-						<!-- Sec Title -->
-						<div class="sec-title">
-							<h2>About <span class="theme-color">Bo Nichols Law</span></h2>
-						</div>
+					<!-- Content Column -->
+					<div class="content-column col-lg-6 col-md-12 col-sm-12 text-container">
+						<div class="inner-column">
+							<!-- Sec Title -->
+							<div class="sec-title">
+								<h2>About <span class="theme-color">Bo Nichols Law</span></h2>
+							</div>
 
-						<!-- Benefit Block -->
-						<div class="text theme-color">John “Bo” Nichols is no stranger to the practice of Family
-							Law.</div><br>
-						<div class="text">A graduate of South Texas Law in 1996, John “Bo” Nichols was a partner at
-							Jenkins & Kamin and KoonsFuller before starting his solo practice.
-							Mr. Nichols is Board Certified by the Texas Board of Legal Specialization in Family Law.
-							Bo is a fellow in the American Academy of Matrimonial Lawyers and
-							the International Academy of Family Lawyers and has been honored with the recognition of
-							one of the Best Lawyers in America and a Texas Super Lawyer.</div>
-						<br>
-						<br>
-						<div class="btn-three-outer"><a href="about" class="theme-btn btn-style-three"><span
-									class="txt">Read More</span></a></div>
+							<!-- Benefit Block -->
+							<div class="text theme-color">John “Bo” Nichols is no stranger to the practice of Family
+								Law.</div><br>
+							<div class="text">A graduate of South Texas Law in 1996, John “Bo” Nichols was a partner at
+								Jenkins & Kamin and KoonsFuller before starting his solo practice.
+								Mr. Nichols is Board Certified by the Texas Board of Legal Specialization in Family Law.
+								Bo is a fellow in the American Academy of Matrimonial Lawyers and
+								the International Academy of Family Lawyers and has been honored with the recognition of
+								one of the Best Lawyers in America and a Texas Super Lawyer.</div>
+							<br>
+							<br>
+							<div class="btn-three-outer"><a href="about" class="theme-btn btn-style-three"><span
+										class="txt">Read More</span></a></div>
 
-					</div>
-				</div>
-
-				<!-- Images Column -->
-				<div class="images-column col-lg-6 col-md-12 col-sm-12 mob-h">
-					<div class="pattern-layer" style="background-image:url(assets/images/icons/pattern-5.png)">
-					</div>
-					<div class="pattern-layer-two"
-						style="background-image:url(assets/images/icons/pattern-6.png); background-size: 75px;">
-					</div>
-					<div class="inner-column">
-						<div class="image">
-							<img src="assets/images/about/bo1.png" height="490" width="344"
-								alt="Houston Family Law Attorney" loading="lazy" />
-						</div>
-						<div class="image-one">
-							<img src="assets/images/about/01.jpg" width="164" height="221"
-								alt="Houston Family Law Attorney" loading="lazy" />
-						</div>
-						<div class="image-two">
-							<img src="assets/images/about/02.jpg" width="144" height="221"
-								alt="Houston Family Law Attorney" loading="lazy" />
-						</div>
-						<div class="image-three">
-							<img src="assets/images/about/03.jpg" width="200" height="229"
-								alt="Houston Family Law Attorney" loading="lazy" />
 						</div>
 					</div>
-					<div><img src="assets/images/about/John-Bo-Nichols-black-high-res.png" loading="lazy"> </div>
+
+					<!-- Images Column -->
+					<div class="images-column col-lg-6 col-md-12 col-sm-12 mob-h">
+						<div class="pattern-layer" style="background-image:url(assets/images/icons/pattern-5.png)">
+						</div>
+						<div class="pattern-layer-two"
+							style="background-image:url(assets/images/icons/pattern-6.png); background-size: 75px;">
+						</div>
+						<div class="inner-column">
+							<div class="image">
+								<img src="assets/images/about/bo1.png" height="490" width="344"
+									alt="Houston Family Law Attorney" loading="lazy" />
+							</div>
+							<div class="image-one">
+								<img src="assets/images/about/01.jpg" width="164" height="221"
+									alt="Houston Family Law Attorney" loading="lazy" />
+							</div>
+							<div class="image-two">
+								<img src="assets/images/about/02.jpg" width="144" height="221"
+									alt="Houston Family Law Attorney" loading="lazy" />
+							</div>
+							<div class="image-three">
+								<img src="assets/images/about/03.jpg" width="200" height="229"
+									alt="Houston Family Law Attorney" loading="lazy" />
+							</div>
+						</div>
+						<div><img src="assets/images/about/John-Bo-Nichols-black-high-res.png" loading="lazy"> </div>
+					</div>
 				</div>
 			</div>
-		</div>
-		<br>
-		
-	</section>
+			<br>
 
-	<!-- End Testimonials Section -->
+		</section>
 
-	<?php include('assets/includes/footer.php'); ?>
+		<!-- End Testimonials Section -->
+
+		<?php include('assets/includes/footer.php'); ?>
 
 	</div>
 
@@ -928,7 +980,4 @@
 	<!--                </div>-->
 	<!--            </div>-->
 	<!--        </div>-->
-
-
-
 
