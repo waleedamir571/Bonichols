@@ -401,19 +401,6 @@
         $('.overlay-bg').fadeOut(700);
     });
 
-
-
-
-
-
-    // function myFunction() {
-    //   setTimeout(function()
-    //   { 
-    //    $(.popupform-main).fadeIn(); 
-    //   },
-    //   3000);
-    // }
-
     var newsletter_p = setInterval(function () {
         $(".popupform-main").css("display", "block")
         clearInterval(newsletter_p);
@@ -447,3 +434,4 @@
 </body>
 
 </html>
+

@@ -26,9 +26,9 @@ body {
     background: #1a5ea3
 }
 
-.theme-color {
+/* .theme-color {
     color: #1a5ea3 !important
-}
+} */
 
 .bg-trans {
     background-color: transparent !important
@@ -48,13 +48,13 @@ body {
 }
 
 .text-container {
-    padding-top: 90px
+    padding-top: 25px;
 }
 
 .text-container-2 {
     padding-top: 90px;
-    padding-left: 120px;
-    padding-right: 50px
+    padding-left: 0px;
+    padding-right: 50px;
 }
 
 .text-container .sec-title {
