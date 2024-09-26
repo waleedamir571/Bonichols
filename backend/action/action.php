@@ -9,5 +9,5 @@ if (isset($_POST['type'])) {
             sideForm($_POST, $connection);
             break;
     }
-    header('Location: https://bonicholslaw.com/');
+    header('Location: https://bonicholslaw.com/thank-you');
 }

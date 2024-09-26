@@ -43,15 +43,15 @@
                                 <div class="row clearfix">
 
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                        <input type="text" name="username" placeholder="Name" required>
+                                        <input type="text" name="name" placeholder="Name" required>
                                     </div>
 
                                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                        <input type="text" name="email" placeholder="Phone" required>
+                                        <input type="number" name="phone" placeholder="Phone" required>
                                     </div>
 
                                     <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                        <input type="email" name="subject" placeholder="E-mail" required>
+                                        <input type="email" name="email" placeholder="E-mail" required>
                                     </div>
 
                                     <div class="form-group col-lg-12 col-md-12 col-sm-12">
@@ -434,4 +434,3 @@
 </body>
 
 </html>
-

@@ -1,38 +1,70 @@
 <?php include 'partials/header.php'; ?>
 
-<body class="hidden-bar-wrapper">
+<body class="hidden-bar-wrapper ">
 
-<div class="page-wrapper">
- 	
-    <!-- Preloader -->
-    <div class="preloader"></div>
- 	
- 	<!-- Main Header-->
- 	<?php include('assets/includes/nav.php'); ?>
-    <!-- End Main Header -->
-	
-	<!--Page Title-->
-    <section class="page-title" style="background-image:url(assets/images/service/enf.jpg); background-position:bottom;">
-    	<div class="auto-container">
-			<div class="clearfix">
-				<div class="pull-left">
-					<h1>ENFORCEMENT</h1>
+	<div class="page-wrapper">
+
+		<!-- Preloader -->
+		<!-- <div class="preloader"></div> -->
+		<?php include('assets/includes/nav.php'); ?>
+		<!--Main Slider-->
+		<section class="main-slider-two">
+
+			<div class="main-slider-carousel owl-carousel owl-theme">
+
+				<div class="slide ban-slide-1">
+					<div class="pattern-layer"></div>
+					<div class="pattern-dots"></div>
+					<div class="auto-container">
+
+						<!-- Content boxed -->
+						<div class="content-boxed my-txttt">
+							<h1>Houston Tx <br> Family Lawyer</h1>
+
+							<div class="btn-one-outer">
+								<a href="javascript:void(0);" class="theme-btn btn-style-one" id="chatTrigger">
+									<span class="txt">BOOK AN APPOINTMENT</span>
+								</a>
+							</div>
+
+							<a data-fancybox="" href="http://bonicholslaw.com/video.mp4" class="video-box"><span
+									class="fa fa-play"><i class="ripple"></i></span></a>
+						</div>
+
+					</div>
 				</div>
-				<div class="pull-right">
-					<ul class="page-breadcrumb">
-						<li><a href="./">home</a></li>
-                        <li><a href="javascript:;">Services</a></li>
-						<li>Enforcement</li>
-					</ul>
+
+				<div class="slide ban-slide-2">
+					<div class="pattern-layer"></div>
+					<div class="pattern-dots"></div>
+					<div class="auto-container">
+						<!-- Content boxed -->
+						<div class="content-boxed my-txttt">
+							<h2 class="">Family <br>Law Specialist<br> in Houston</h2>
+							<div class="link-box clearfix">
+								<div class="btn-one-outer"><a href="javascript:void(0);"
+										class="theme-btn btn-style-one"><span class="txt">BOOK AN APPOINTMENT</span></a>
+								</div>
+							</div>
+							<a data-fancybox="" href="http://bonicholslaw.com/video.mp4" class="video-box"><span
+									class="fa fa-play"><i class="ripple"></i></span></a>
+						</div>
+					</div>
 				</div>
 			</div>
-        </div>
-    </section>
-    <!--End Page Title-->
-	
-	<!-- About Section -->
-<!-- About Section -->
-<section class="about-section style-two">
+
+			<!-- Social Box -->
+			<!-- <div class="social-box">
+				<ul>
+					<li><a href="https://www.facebook.com/bonicholslaw/" class="fa fa-facebook-f"></a></li>
+					<li><a href="https://www.linkedin.com/checkpoint/challengesV2/AQEIX8LxcScyOAAAAXPa5LzsqhwcZrIe7FYO5FP6BEIgqujA63rtqDLehy_m6gnE9kEaIWpY067pw0ZkoiRZhU3wcA3VRqoakw"
+							class="fa fa-linkedin"></a></li>
+				</ul>
+			</div> -->
+
+		</section>
+		<!--End Main Slider-->
+		<section class="about-section style-two">
 			<div class="auto-container">
 				<div class="row clearfix">
 
@@ -872,6 +904,66 @@
 			</div>
 		</section>
 
+		<!-- <section class="news-section">
+			<div class="auto-container">
+				
+				<div class="sec-title centered">
+					<div class="title">Our Blogs</div>
+					<h2>Latest News <br> Posts</h2>
+				</div>
+
+				<div class="row clearfix">
+				
+					<?php
+					require('blog/config.php');
+					$query2 = "SELECT * FROM blogs ORDER BY id DESC LIMIT 3";
+					$run2 = mysqli_query($con, $query2);
+					if (!$run2) {
+						die("Query Failed " . mysqli_error($con));
+					} else {
+						while ($row2 = mysqli_fetch_assoc($run2)) {
+							$id = $row2['id'];
+							$name = $row2['name'];
+							$img = $row2['img'];
+							$date = $row2['date'];
+							$author = $row2['author'];
+							$content = $row2['content'];
+							?>
+							<div class="news-block col-lg-4 col-md-6 col-sm-12">
+								<div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+									<div class="image">
+										<a href="blog/blog-single?id=<?php echo $id; ?>"><img
+												src="assets/images/blogs/<?php echo $img ?>" alt="Houston Family Law Attorney"
+												loading="lazy" /></a>
+										<div class="post-date">
+											<?php echo $date ?>
+										</div>
+									</div>
+									<div class="lower-content">
+										<h4><a href="blog/blog-single?id=<?php echo $id; ?>">
+												<?php echo $name ?>
+											</a></h4>
+										<div class="text">
+											<div class="text">
+												<?php echo substr($content, 0, 100) . "..." ?>
+											</div>
+											<div class="btn-three-outer"><a href="blog/blog-single?id=<?php echo $id; ?>"
+													class="theme-btn btn-style-three"><span class="txt">Read More</span></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<?php
+						}
+					}
+					?>
+				
+			</div>
+
+	</section> -->
+
 		<section class="benefits-section">
 			<div class="side-image"></div>
 			<div class="auto-container">
@@ -934,14 +1026,25 @@
 			<br>
 
 		</section>
-	
-</div>
-<!--End pagewrapper-->
 
-<!--Scroll to top-->
+		<!-- End Testimonials Section -->
+
+		<?php include('assets/includes/footer.php'); ?>
+
+	</div>
 
 
+	<!--End pagewrapper-->
+	<!--Scroll to top-->
+	<!--<div class="overlay-bg"></div>-->
+	<!--        <div class="popupform-main">-->
+	<!--            <div class="pop-form ta-center">-->
+	<!--                <div id="pop-form" class="col-sm-offset-5 col-sm-7">-->
 
-<?php include('assets/includes/footer.php'); ?>
-
+	<!--                    <a href="javascript:;" class="close-btn ta-center">X</a>-->
+	<!--                    <div class="clearfix"></div>-->
+	<!-- <a class="no-thanks fs-large" href="#">No Thanks</a> -->
+	<!--                </div>-->
+	<!--            </div>-->
+	<!--        </div>-->
 

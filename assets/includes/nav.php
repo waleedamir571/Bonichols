@@ -46,8 +46,10 @@
                         <ul class="navigation clearfix">
                             <li><a href="./">Home</a></li>
                             <li><a href="about">About</a></li>
-                            <li class="dropdown"><a href="javascript:;">Our Services</a>
+                            <li class="dropdown">
+                                <a href="services">Our Services</a>
                                 <ul>
+                                    
                                     <li><a href="child-support">Child Support</a></li>
                                     <li><a href="child-custody">Child Custody</a></li>
                                     <li><a href="divorce">Divorce</a></li>
@@ -61,7 +63,6 @@
                         </ul>
                     </div>
                 </nav>
-
             </div>
 
         </div>
@@ -101,9 +102,3 @@
 
 </header>
 
-
-<div class="container">
-    <div class="row">
-        <div class="col-md-3"></div>
-    </div>
-</div>

@@ -53,29 +53,31 @@
 	
 	
 	//Submenu Dropdown Toggle
-	if($('.main-header li.dropdown ul').length){
-		$('.main-header li.dropdown').append('<div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>');
-		
-		//Dropdown Button
-		$('.main-header li.dropdown .dropdown-btn').on('click', function() {
-			$(this).prev('ul').slideToggle(500);
-		});
-		
-		//Dropdown Menu / Fullscreen Nav
-		$('.fullscreen-menu .navigation li.dropdown > a').on('click', function() {
-			$(this).next('ul').slideToggle(500);
-		});
-		
-		//Disable dropdown parent link
-		$('.navigation li.dropdown > a').on('click', function(e) {
-			e.preventDefault();
-		});
-		
-		//Disable dropdown parent link
-		$('.main-header .navigation li.dropdown > a,.hidden-bar .side-menu li.dropdown > a').on('click', function(e) {
-			e.preventDefault();
-		});
-	}
+	$(document).ready(function() {
+		// Check if there are dropdown menus
+		if ($('.main-header li.dropdown ul').length) {
+			// Append the dropdown button only if there is a submenu
+			$('.main-header li.dropdown').append('<div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>');
+	
+			// Dropdown Button functionality for Main Menu
+			$('.main-header li.dropdown .dropdown-btn').on('click', function() {
+				$(this).prev('ul').slideToggle(500);
+			});
+	
+			// Dropdown functionality for Fullscreen Nav
+			$('.fullscreen-menu .navigation li.dropdown > a').on('click', function(e) {
+				e.preventDefault(); // Prevent navigation
+				$(this).next('ul').slideToggle(500); // Toggle submenu
+			});
+	
+			// Disable parent link for navigation only if it has a submenu
+			$('.main-header .navigation li.dropdown > a,.hidden-bar .side-menu li.dropdown > a').on('click', function(e) {
+				if ($(this).next('ul').length) {
+					e.preventDefault(); // Prevent only if there is a submenu
+				}
+			});
+		}
+	});
 	
 	
 	//Mobile Nav Hide Show

@@ -8,61 +8,25 @@
 		<!-- <div class="preloader"></div> -->
 		<?php include('assets/includes/nav.php'); ?>
 		<!--Main Slider-->
-		<section class="main-slider-two">
-
-			<div class="main-slider-carousel owl-carousel owl-theme">
-
-				<div class="slide ban-slide-1">
-					<div class="pattern-layer"></div>
-					<div class="pattern-dots"></div>
-					<div class="auto-container">
-
-						<!-- Content boxed -->
-						<div class="content-boxed my-txttt">
-							<h1>Houston Tx <br> Family Lawyer</h1>
-
-							<div class="btn-one-outer">
-								<a href="javascript:void(0);" class="theme-btn btn-style-one" id="chatTrigger">
-									<span class="txt">BOOK AN APPOINTMENT</span>
-								</a>
-							</div>
-
-							<a data-fancybox="" href="http://bonicholslaw.com/video.mp4" class="video-box"><span
-									class="fa fa-play"><i class="ripple"></i></span></a>
-						</div>
-
-					</div>
+		<section class="page-title" style="background-image:url(assets/images/service/child-support.jpg); background-position:bottom;">
+    	<div class="auto-container">
+			<div class="clearfix">
+				<div class="pull-left">
+					<h1>Leading Child Support Lawyer in Houston</h1>
+						<p class=" text">At Bo Nichols, we help clients navigate the complicated and overwhelming process of child support.
+						With the help of an experienced Houston child support attorney, you will get a better understanding of the family law and your rights as a parent. </p>
+					
 				</div>
-
-				<div class="slide ban-slide-2">
-					<div class="pattern-layer"></div>
-					<div class="pattern-dots"></div>
-					<div class="auto-container">
-						<!-- Content boxed -->
-						<div class="content-boxed my-txttt">
-							<h2 class="">Family <br>Law Specialist<br> in Houston</h2>
-							<div class="link-box clearfix">
-								<div class="btn-one-outer"><a href="javascript:void(0);"
-										class="theme-btn btn-style-one"><span class="txt">BOOK AN APPOINTMENT</span></a>
-								</div>
-							</div>
-							<a data-fancybox="" href="http://bonicholslaw.com/video.mp4" class="video-box"><span
-									class="fa fa-play"><i class="ripple"></i></span></a>
-						</div>
-					</div>
+				<div class="pull-right">
+					<ul class="page-breadcrumb">
+						<li><a href="./">home</a></li>
+                        <li><a href="javascript:;">Services</a></li>
+						<li>Child Support</li>
+					</ul>
 				</div>
 			</div>
-
-			<!-- Social Box -->
-			<!-- <div class="social-box">
-				<ul>
-					<li><a href="https://www.facebook.com/bonicholslaw/" class="fa fa-facebook-f"></a></li>
-					<li><a href="https://www.linkedin.com/checkpoint/challengesV2/AQEIX8LxcScyOAAAAXPa5LzsqhwcZrIe7FYO5FP6BEIgqujA63rtqDLehy_m6gnE9kEaIWpY067pw0ZkoiRZhU3wcA3VRqoakw"
-							class="fa fa-linkedin"></a></li>
-				</ul>
-			</div> -->
-
-		</section>
+        </div>
+    </section>
 		<!--End Main Slider-->
 		<section class="about-section style-two">
 			<div class="auto-container">
@@ -1039,7 +1003,7 @@
 	<!--<div class="overlay-bg"></div>-->
 	<!--        <div class="popupform-main">-->
 	<!--            <div class="pop-form ta-center">-->
-	<!--                <div id="pop-form" class="col-sm-offset-5 col-sm-7">-->
+	<!--                <div id="pop-form" class="col-sm-offset-5 col-
 
 	<!--                    <a href="javascript:;" class="close-btn ta-center">X</a>-->
 	<!--                    <div class="clearfix"></div>-->

@@ -1,5 +1,12 @@
 <?php include 'partials/header.php'; ?>
 
+<style>
+	 }
+    .d-none1{
+        display: none;
+    }
+</style>
+
 <body class="hidden-bar-wrapper">
 
 	<div class="page-wrapper">

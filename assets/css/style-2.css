@@ -127,6 +127,10 @@ h6 {
     max-width: 850px;
 }
 
+.sponsors-outer .owl-nav {
+    display: none;
+}
+
 .clients-section1 .sponsors-outer .owl-dots, .clients-section .sponsors-outer .owl-nav {
     position: relative;
     display: none !important;
@@ -146,9 +150,9 @@ h6 {
     transition: all 300ms ease;
 }
 
-.owl-nav {
+/* .owl-nav {
     display: none;
-}
+} */
 .page-wrapper {
     position: relative;
     margin: 0 auto;
@@ -5078,7 +5082,7 @@ img {
 }
 
 .default-form .form-group input[type="text"],
-.default-form .form-group input[type="tel"],
+.default-form .form-group input[type="number"],
 .default-form .form-group input[type="email"],
 .default-form .form-group select {
     position: relative;
@@ -5086,7 +5090,7 @@ img {
     width: 100%;
     line-height: 28px;
     padding: 10px 25px;
-    color: #222222;
+    color: #fff;
     height: 60px;
     font-size: 14px;
     background: none;
@@ -9185,12 +9189,11 @@ line-height: 26px;
 .page-title {
     position: relative;
     padding: 320px 0px 160px;
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     /* background-position: center center; */
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
 }
-
 .page-title:before {
     position: absolute;
     content: '';
