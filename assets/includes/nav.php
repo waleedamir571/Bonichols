@@ -74,7 +74,7 @@
         <div class="container-fluid clearfix">
             <!--Logo-->
             <div class="logo pull-left">
-                <a href="index.php" title=""><img src="../assets/images/logo-dark.png" alt="" width="175" height="48" title=""></a>
+                <a href="index.php" title=""><img src="assets/images/logo-dark.png" alt="" width="175" height="48" title=""></a>
             </div>
             <!--Right Col-->
             <div class="pull-right">
