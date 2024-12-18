@@ -13,16 +13,16 @@
 
         <!--Page Title-->
         <section class="page-title"
-            style="background-image:url(assets/images/about/banner.png); background-position:bottom;">
+            style="background-image:url(assets/images/about/services.png); background-position:bottom;">
             <div class="auto-container">
                 <div class="clearfix">
                     <div class="pull-left">
-                        <h1>ABOUT US</h1>
+                        <h1></h1>
                     </div>
                     <div class="pull-right">
                         <ul class="page-breadcrumb">
-                            <li><a href="./">home</a></li>
-                            <li>About us</li>
+                            <li><a href="./"></a></li>
+                            <li></li>
                         </ul>
                     </div>
                 </div>
@@ -30,10 +30,26 @@
         </section>
         <!--End Page Title-->
 
+
+        <div class="grey-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="pull-left">
+                            <ul class="page-breadcrumb">
+                                <li><a href="./">home /</a></li>
+                                <li>Services</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- About Section -->
         <section class="about-section" style="padding-top:0;">
             <div class="container">
-                <div class="row clearfix">
+                <div class="row clearfix align-items-center">
                     <!-- Content Column -->
                     <div class="content-column col-lg-6 col-md-12 col-sm-12 text-container-2">
                         <div class="inner-column">
@@ -69,45 +85,49 @@
         </section>
 
         <!-- Services Section Two -->
-        <section class="services-section-two">
-            <div class="image-layer1 service-bg1"></div>
-            <div class="container">
-                <div class="row clearfix">
-                    <!-- Content Column -->
-                    <div class="image-column col-lg-6 col-md-12 col-sm-12 mob-h">
-                        <div class="inner-column wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <div class="award"><img src="" alt="" /></div>
-                            <div class="image">
-                                <img src="assets/images/about/professionally.png" alt="" />
+
+        <!-- End Services Section Two -->
+
+
+        <div class="grey-bg">
+            <section class="about-section" style="padding-top:0;">
+                <div class="container">
+                    <div class="row clearfix">
+                        <!-- Content Column -->
+                        <div class="image-column col-lg-6 pad-right-0 col-md-12 col-sm-12 mob-h">
+                            <div class="inner-column wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <div class="award"><img src="" alt="" /></div>
+                                <div class="image">
+                                    <img src="assets/images/service/services.png" alt="" />
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="content-column col-lg-6 col-md-12 col-sm-12 text-container-2">
-                        <div class="inner-column">
-                            <!-- Sec Title -->
-                            <div class="sec-title">
-                                <img src="assets/images/service/image 3.png" alt="">
-                                <h2 class="theme-color">Divorce</h2>
+                        <div class="content-column  col-md-5 offset-md-1 col-sm-12 text-container-2">
+                            <div class="inner-column">
+                                <!-- Sec Title -->
+                                <div class="sec-title">
+                                    <img src="assets/images/service/child-custody.png" alt="">
+                                    <h2 class="theme-color">Child Custody</h2>
+                                </div>
+                                <div class="text-li">Negotiating and litigating child custody arrangements, helping
+                                    parents establish suitable agreements that prioritize the best interests of the
+                                    child.
+                                </div>
                             </div>
-                            <div class="text-li">Assisting clients in navigating the complex legal process of divorce,
-                                ensuring their rights and interests are protected throughout the dissolution of their
-                                marriage.
-                            </div>
+
+                            <div class="btn-three-outer"><a href="about" class="theme-btn btn-style-three"><span
+                                        class="txt">Read More</span></a></div>
                         </div>
 
-                        <div class="btn-three-outer"><a href="about" class="theme-btn btn-style-three"><span
-                                    class="txt">Read More</span></a></div>
-                    </div>
-
-                    <!--
+                        <!--
                 <div class="col-md-6 pad-right-0 about-bgg mob-h" style="display: table-cell;">
                     
                 </div>
 -->
+                    </div>
                 </div>
-            </div>
-        </section>
-        <!-- End Services Section Two -->
+            </section>
+        </div>
 
         <section class="about-section" style="padding-top:0;">
             <div class="container">
@@ -117,12 +137,12 @@
                         <div class="inner-column">
                             <!-- Sec Title -->
                             <div class="sec-title">
-                                <img src="assets/images/service/image 3.png" alt="">
-                                <h2 class="theme-color">Divorce</h2>
+                                <img src="assets/images/service/hammer.png" alt="">
+                                <h2 class="theme-color">Asset Division</h2>
                             </div>
-                            <div class="text-li">Assisting clients in navigating the complex legal process of divorce,
-                                ensuring their rights and interests are protected throughout the dissolution of their
-                                marriage.
+                            <div class="text-li">Expertly handling the equitable distribution of marital assets, working
+                                to secure fair outcomes for their clients while considering applicable laws and
+                                financial circumstances.
                             </div>
                         </div>
 
@@ -146,83 +166,135 @@
             </div>
         </section>
 
-
-        <div class="bg-3">
-        <section class="benefits-section">
-            <div class="side-image"></div>
-            <div class="auto-container">
-                <div class="row clearfix">
-
-
-                    <div class="images-column col-lg-6 col-md-12 col-sm-12 mob-h">
-                        <!-- <div class="pattern-layer" style="background-image:url(assets/images/icons/pattern-5.png)">
+        <div class="blue-bg">
+            <section class="about-section" style="padding-top:0;">
+                <div class="container">
+                    <div class="row clearfix align-items-center">
+                        <!-- Content Column -->
+                        <div class="image-column col-lg-6 pad-right-0 col-md-12 col-sm-12 mob-h">
+                            <div class="inner-column wow fadeInRight animated" data-wow-delay="0ms"
+                                data-wow-duration="1500ms"
+                                style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInRight;">
+                                <div class="award"><img src="" alt=""></div>
+                                <div class="image">
+                                    <img src="assets/images/service/services4.png" alt="">
+                                </div>
+                            </div>
                         </div>
-                        <div class="pattern-layer-two" style="background-image:url(assets/images/icons/pattern-6.png)">
-                        </div> -->
-                        <div class="inner-column">
-                            <div class="image">
-                                <img src="assets/images/about/bonichols.png" alt="" />
+                        <div class="content-column  col-md-5 offset-md-1 col-sm-12 text-container-2">
+                            <div class="inner-column">
+                                <!-- Sec Title -->
+                                <div class="sec-title">
+                                    <img src="assets/images/service/home.png" alt="">
+                                    <h2 class="theme-color" style="color: white !important;">Enforcement</h2>
+                                </div>
+                                <div class="text-li" style="color: white !important;">Ensuring the compliance of court orders, such as child support or
+                                    alimony payments, by pursuing legal enforcement actions when necessary, safeguarding
+                                    the well-being of their clients.
+                                </div>
                             </div>
 
+                            <div class="btn-three-outer"><a href="about" class="theme-btn btn-style-three"><span
+                                        class="txt">Read More</span></a></div>
                         </div>
+
+                        <!--
+                <div class="col-md-6 pad-right-0 about-bgg mob-h" style="display: table-cell;">
+                    
+                </div>
+-->
                     </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="about-section" style="padding-top:0;">
+            <div class="container">
+                <div class="row clearfix">
                     <!-- Content Column -->
-                    <div class="content-column col-lg-6 col-md-12 col-sm-12 text-container">
+                    <div class="content-column col-lg-6 col-md-12 col-sm-12 text-container-2">
                         <div class="inner-column">
                             <!-- Sec Title -->
                             <div class="sec-title">
-                                <h2 class="theme-color">Personally</h2>
+                                <img src="assets/images/service/premartial.png" alt="">
+                                <h2 class="theme-color">Premarital
+                                    Agreement</h2>
                             </div>
+                            <div class="text-li">During the process of planning a wedding or a new life together, it
+                                would be wise to consider a Premarital Agreement.
 
-                            <!-- Benefit Block -->
-                            <div class="text-li">John “Bo” Nichols, or “Bo” as his friends call him, is a 3rd generation
-                                Houstonian and loves the city and the relationships he has created here. In fact, he
-                                loves it so much, that he came back home to finish his undergraduate work at the
-                                University of Houston.<br>Bo is a people person and he truly does love most people
-                                and gives them the benefit of the doubt, always seeing the good in everyone. He has
-                                carried this mentality over into his practice with his clients by entering into each
-                                attorney/client relationship with a sense of optimism. He knows that his clients are
-                                good people, who might not always be on their best behavior due to circumstances beyond
-                                their control, such as the stress of divorce. And, he understands that stress very well,
-                                having gone through his own divorce with children involved.
-                                <br>
-                                It is because of this that Bo Nichols is able to feel for and
-                                understand each of his clients. He knows how hard it is (as a client) to identify with
-                                and
-                                follow the advice of some person who claims to have your best interest at heart.
                             </div>
+                        </div>
 
+                        <div class="btn-three-outer"><a href="about" class="theme-btn btn-style-three"><span
+                                    class="txt">Read More</span></a></div>
+                    </div>
+                    <div class="image-column col-lg-6 pad-right-0 col-md-12 col-sm-12 mob-h">
+                        <div class="inner-column wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="award"><img src="" alt="" /></div>
+                            <div class="image">
+                                <img src="assets/images/service/martial.png" alt="" />
+                            </div>
                         </div>
                     </div>
-
-                    <!-- Images Column -->
-
-                    <!-- <div class="row">
-                        
-                            <span class="text-center text-high theme-color">“I guess you can say my own divorce helped
-                                humble me and made me realize just how significant many of these issues are for my
-                                clients.”</span><br><span class="text text-center text-high theme-color">– Bo
-                                Nichols</span>
-                        </p> -->
+    
                 </div>
             </div>
-   
-    </section>
-</div>
+        </section>
 
-    <!-- Choose Section -->
+        <div class="grey-bg">
+            <section class="about-section" style="padding-top:0;">
+                <div class="container">
+                    <div class="row clearfix align-items-center">
+                        <!-- Content Column -->
+                        <div class="image-column col-lg-6 pad-right-0 col-md-12 col-sm-12 mob-h">
+                            <div class="inner-column wow fadeInRight animated" data-wow-delay="0ms"
+                                data-wow-duration="1500ms"
+                                style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInRight;">
+                                <div class="award"><img src="" alt=""></div>
+                                <div class="image">
+                                    <img src="assets/images/service/carebig.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-column  col-md-5 offset-md-1 col-sm-12 text-container-2">
+                            <div class="inner-column">
+                                <!-- Sec Title -->
+                                <div class="sec-title">
+                                    <img src="assets/images/service/care.png" alt="">
+                                    <h2 class="theme-color" >Enforcement</h2>
+                                </div>
+                                <div class="text-li">Ensuring the compliance of court orders, such as child support or
+                                    alimony payments, by pursuing legal enforcement actions when necessary, safeguarding
+                                    the well-being of their clients.
+                                </div>
+                            </div>
 
-    <!-- End Benefits Section -->
-    <!-- End Choose Section -->
+                            <div class="btn-three-outer"><a href="about" class="theme-btn btn-style-three"><span
+                                        class="txt">Read More</span></a></div>
+                        </div>
 
-    <!-- Clients Section -->
+  
+                    </div>
+                </div>
+            </section>
+        </div>
 
-    <!-- End Clients Section -->
-
-    <!--------- Award Secction -------------->
 
 
-    <!-- Main Footer -->
+        <!-- Choose Section -->
+
+        <!-- End Benefits Section -->
+        <!-- End Choose Section -->
+
+        <!-- Clients Section -->
+
+        <!-- End Clients Section -->
+
+        <!--------- Award Secction -------------->
+
+
+        <!-- Main Footer -->
 
 
     </div>
@@ -230,6 +302,3 @@
 
     <!--Scroll to top-->
     <?php include('assets/includes/footer.php'); ?>
-
-
-   

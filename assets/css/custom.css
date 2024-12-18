@@ -63,7 +63,7 @@ body {
 .text-container-2 {
     padding-top: 90px;
     padding-left: 0px;
-    padding-right: 50px;
+    /* padding-right: 50px; */
 }
 
 .text-container .sec-title {

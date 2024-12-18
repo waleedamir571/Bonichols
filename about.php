@@ -13,22 +13,41 @@
 
 		<!--Page Title-->
 		<section class="page-title"
-			style="background-image:url(assets/images/about/banner.png); background-position:bottom;">
+			style="background-image:url(assets/images/about/about-header.png); background-position:bottom;">
 			<div class="auto-container">
 				<div class="clearfix">
 					<div class="pull-left">
-						<h1>ABOUT US</h1>
+						<h1></h1>
 					</div>
 					<div class="pull-right">
 						<ul class="page-breadcrumb">
-							<li><a href="./">home</a></li>
-							<li>About us</li>
+							<li><a href="./"></a></li>
+							<li></li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</section>
 		<!--End Page Title-->
+
+
+		<div class="grey-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="pull-left">
+							<ul class="page-breadcrumb">
+								<li><a href="./">home /</a></li>
+								<li>About us</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
 
 		<!-- About Section -->
 		<section class="about-section" style="padding-top:0;">
@@ -41,7 +60,8 @@
 							<div class="sec-title">
 								<h2 class="theme-color">Professionally</h2>
 							</div>
-							<div class="text-li">Bo Nichols Law was established in September of 2013, but John “Bo” Nichols
+							<div class="text-li">Bo Nichols Law was established in September of 2013, but John “Bo”
+								Nichols
 								is no stranger to the practice of Family Law.
 								<br>
 								A graduate of South Texas Law in 1996, John “Bo” Nichols was a partner at Jenkins &
@@ -79,7 +99,7 @@
 		</section>
 
 		<!-- Services Section Two -->
-		<?php include('assets/includes/service.php'); ?>
+
 		<section class="benefits-section">
 			<div class="side-image"></div>
 			<div class="auto-container">
@@ -200,45 +220,46 @@
 					</div>
 				</div>
 				<div class="pt-50">
-				<div class="row">
-					<p class="text-center text-new">The Joe Niekro Foundation proudly acknowledges the philanthropy of
-						Angela and John “Bo” Nichols who have distinguished themselves through their extraordinary
-						investment in the mission of the Joe Niekro Foundation. We are extremely pleased to honor
-						them with the Crystal Bat Award that acknowledges their generosity and their efforts.
+					<div class="row">
+						<p class="text-center text-new">The Joe Niekro Foundation proudly acknowledges the philanthropy
+							of
+							Angela and John “Bo” Nichols who have distinguished themselves through their extraordinary
+							investment in the mission of the Joe Niekro Foundation. We are extremely pleased to honor
+							them with the Crystal Bat Award that acknowledges their generosity and their efforts.
 
-					</p>
-					<br>
+						</p>
+						<br>
+					</div>
 				</div>
-			</div>
 			</div>
 			<div class="ptb-50">
-			<div class="row clearfix">
-				<div class="col-lg-3 col-md-6 col-sm-12">
-					<div class="card m-2" style="width: 18rem; height:400px;">
-						<img class="card-img-top" src="assets/images/about/award-01.jpg" alt="">
+				<div class="row clearfix">
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<div class="card m-2" style="width: 18rem; height:400px;">
+							<img class="card-img-top" src="assets/images/about/award-01.jpg" alt="">
 
+						</div>
 					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12">
-					<div class="card m-2" style="width: 18rem;">
-						<img class="card-img-top" src="assets/images/about/award-02.jpg" alt="">
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<div class="card m-2" style="width: 18rem;">
+							<img class="card-img-top" src="assets/images/about/award-02.jpg" alt="">
 
+						</div>
 					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12">
-					<div class="card m-2" style="width: 18rem;">
-						<img class="card-img-top" src="assets/images/about/award-03.jpg" alt="">
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<div class="card m-2" style="width: 18rem;">
+							<img class="card-img-top" src="assets/images/about/award-03.jpg" alt="">
 
+						</div>
 					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12">
-					<div class="card m-2" style="width: 18rem;">
-						<img class="card-img-top" src="assets/images/about/award-04.jpg" alt="">
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<div class="card m-2" style="width: 18rem;">
+							<img class="card-img-top" src="assets/images/about/award-04.jpg" alt="">
 
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>	
 		</div>
 	</section>
 

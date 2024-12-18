@@ -33,6 +33,83 @@ body {
     -moz-font-smoothing: antialiased;
 }
 
+.ptb-30{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.grey-bg {
+    background-color: #F3F3F3;
+    padding-bottom: 20px;
+}
+
+.blue-bg{
+   
+        background-color: #1A5EA3;
+        /* padding-bottom: 70px; */
+   
+}
+
+.blog-posts{
+    color: #000;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: 50px; /* 111.111% */
+text-transform: uppercase;
+}
+.w-80{
+    width: 70%;
+}
+
+span.theme-color {
+
+    color: #1A5EA3;
+}
+
+.email-text{
+    color: #000;
+
+
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+
+.email{
+    color: #000;
+
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 100% */
+text-transform: uppercase;
+}
+
+  .email-text {
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+.main-footer1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../images/about/contactbg.png) center center no-repeat;
+    background-size: cover;
+}
+
+.contact-us{
+    color: #FFF;
+
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+text-transform: uppercase;
+}
+
 .liveChatFloatingButton {
     background-color: #1A5EA3 !important;
     color: #fff;
@@ -4368,8 +4445,9 @@ img {
 
 /*** ====================================================================	About Section====================================================================***/
 .about-section {
-    position: relative;
-    padding-top: 125px;
+    /* position: relative; */
+    /* padding-top: 125px; */
+    padding-bottom: 70px;
 }
 
 .about-section.style-two {
@@ -5858,9 +5936,10 @@ img {
     
 }
 .ptb-40 {
-    padding-top: 170px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 60px;
 }
+
 .text-li{
     color: #000;
 font-size: 16px;
@@ -5872,13 +5951,14 @@ line-height: 26px;
 /*** ====================================================================	Clients Section====================================================================***/
 .clients-section {
     width: 100%;
-    height: 75vh;
-    background: url(../images/about/bgpng.png) no-repeat center center;
-    background-size: 100% 100%;
-    clip-path: polygon(0% 0%, 99% 32%, 100% 100%, 0 71%);
-    position: relative;
-    margin-top: -12rem;
+    /* height: 75vh; */
+    /* background: url(../images/about/bgpng.png) no-repeat center center; */
+    /* background-size: 100% 100%; */
+    /* clip-path: polygon(0% 0%, 99% 32%, 100% 100%, 0 71%); */
+    /* position: relative; */
+    margin-top: -3rem;
     z-index: 0;
+    background-color: #F3F3F3;
 }
 
 
@@ -9187,13 +9267,16 @@ line-height: 26px;
 
 /*** ====================================================================	Page Title====================================================================***/
 .page-title {
-    position: relative;
-    padding: 320px 0px 160px;
+    /* position: inherit; */
+    /* padding: 300px; */
     background-size: cover;
+    height: 700px;
     background-repeat: no-repeat;
-    /* background-position: center center; */
-    background-attachment: fixed;
+    background-position: center center;
+    /* background-attachment: fixed; */
 }
+
+
 .page-title:before {
     position: absolute;
     content: '';
@@ -9244,23 +9327,15 @@ line-height: 26px;
 .page-breadcrumb li {
     position: relative;
     display: inline-block;
-    margin-right: 10px;
-    padding-right: 15px;
+    margin-right: 0px;
+    padding-right: 0px;
     color: #ff0000;
     font-size: 16px;
     font-weight: 400;
     text-transform: capitalize;
 }
 
-.page-breadcrumb li:after {
-    position: absolute;
-    content: "/";
-    right: -2px;
-    top: 1px;
-    color: #ffffff;
-    font-size: 18px;
-    font-family: 'FontAwesome';
-}
+
 
 .page-breadcrumb li:last-child::after {
     display: none;
@@ -9272,7 +9347,7 @@ line-height: 26px;
 }
 
 .page-breadcrumb li a {
-    color: #ffffff;
+    color: #000;
     font-weight: 400;
     text-transform: capitalize;
     transition: all 0.3s ease;
@@ -9985,7 +10060,7 @@ line-height: 26px;
 
 .sidebar-page-container .content-side,
 .sidebar-page-container .sidebar-side {
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 .sidebar-page-container .sidebar-side .sidebar.padding-right {
@@ -11012,8 +11087,8 @@ line-height: 26px;
 
 .news-block-three .inner-box .lower-content {
     position: relative;
-    padding: 35px 35px 50px;
-    border: 1px solid #dddddd;
+    padding: 20px 5px 9px;
+    /* border: 1px solid #dddddd; */
 }
 
 .news-block-three .inner-box .lower-content .post-meta {

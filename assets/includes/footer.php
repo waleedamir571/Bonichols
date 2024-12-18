@@ -6,32 +6,24 @@
 </style>
 
 
-<footer class="main-footer">
+<footer class="main-footer1">
 
     <section class="contact-form-section" id="contacttt">
         <div class="auto-container">
 
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <p class="montserrat contact-us">Contact Us</p>
+                </div>
+            </div>
+
             <div class="row clearfix d-none1">
 
                 <!-- Title Column -->
-                <div class="title-column col-lg-4 col-md-12 col-sm-12">
-                    <div class="inner-column">
-                        <!-- Sec Title -->
-                        <div class="sec-title">
-                            <div class="title text-white">Contact Now</div>
-                            <h6 class="text-white">Ask Us <br> Anything</h4>
-                        </div>
-                        <ul class="add-link">
-                            <li class="pp-1">1201 Shepherd Dr, Houston, TX 77007</li>
-                            <li class="pp-2"><a href="mailto:bnichols@bonicholslaw.com" class="text-white">
-                                    bnichols@bonicholslaw.com</a></li>
-                            <li class="pp-3"><a href="tel:(713) 351-0681" class="text-white"> (713)
-                                    351-0681</a></li>
-                        </ul>
-                    </div>
-                </div>
+
+
                 <!-- Form Column -->
-                <div class="form-column col-lg-8 col-md-12 col-sm-12">
+                <div class="form-column  col-md-12 col-sm-12">
                     <div class="inner-column">
 
                         <!-- Default Form -->
@@ -58,7 +50,7 @@
                                         <textarea name="message" placeholder="Your Message"></textarea>
                                     </div>
 
-                                    <div class="form-group clearfix col-lg-12 col-md-12 col-sm-12">
+                                    <div class="form-group clearfix col-lg-12 col-md-12 col-sm-12 text-center">
                                         <div class="btn-three-outer"><button class="theme-btn btn-style-three"
                                                 type="submit" name="submit-form"><span class="txt text-white">SEND
                                                     MESSAGE</span></button></div>
@@ -75,6 +67,66 @@
 
             </div>
         </div>
+    </section>
+
+</footer>
+
+
+<section class="contact-form-section" id="contacttt">
+    <div class="auto-container">
+
+     
+        <div class="row ">
+
+            <!-- Title Column -->
+
+
+            <!-- Form Column -->
+            <div class="col-md-4 d-flex align-items-center">
+                <!-- Icon -->
+                <div class="icon">
+                  <img class="w-80" src="assets/images/about/email.png" alt="Email Icon">
+                </div>
+                <!-- Text -->
+                <div>
+                  <h6 class="mb-1 email">EMAIL ADDRESS</h6>
+                  <p class="mb-0 email-text">bnichols@bonicholslaw.com</p>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex align-items-center">
+                <!-- Icon -->
+                <div class="icon">
+                  <img class="w-80" src="assets/images/about/location.png" alt="Email Icon">
+                </div>
+                <!-- Text -->
+                <div>
+                  <h6 class="mb-1 email">Location</h6>
+                  <p class="mb-0 email-text">1201 Shepherd Dr, Houston, TX 77007</p>
+                </div>
+              </div>
+              <div class="col-md-4 d-flex align-items-center">
+                <!-- Icon -->
+                <div class="icon">
+                  <img class="w-80" src="assets/images/about/phone.png" alt="Email Icon">
+                </div>
+                <!-- Text -->
+                <div>
+                  <h6 class="mb-1 email">Phone number</h6>
+                  <p class="mb-0 email-text">(713) 351-0681</p>
+                </div>
+              </div>
+        </div>
+    </div>
+</section>
+
+
+
+<br>
+
+<footer class="main-footer">
+
+    <section class="contact-form-section" id="contacttt">
+
     </section>
     <div class="auto-container">
         <!-- Widgets Section -->
