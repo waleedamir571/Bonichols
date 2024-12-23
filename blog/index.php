@@ -89,12 +89,12 @@
             <div class="auto-container">
                 <div class="clearfix">
                     <div class="pull-left">
-                        <h1></h1>
+                        <h1>Blog</h1>
                         <div class="text"></div>
                     </div>
                     <div class="pull-right">
                         <ul class="page-breadcrumb">
-                            <li><a href="index.html"></a></li>
+                            <li><a href="./"></a></li>
                             <li></li>
                         </ul>
                     </div>
@@ -109,7 +109,7 @@
                     <div class="col-md-12">
                         <div class="pull-left">
                             <ul class="page-breadcrumb">
-                                <li><a href="./">home /</a></li>
+                                <li><a href="../">home /</a></li>
                                 <li>Blog</li>
                             </ul>
                         </div>
@@ -573,6 +573,6 @@
 
 </body>
 
-<!-- Mirrored from expert-themes.com/html/gym/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 10 Jul 2020 10:19:04 GMT -->
+
 
 </html>

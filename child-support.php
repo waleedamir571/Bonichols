@@ -868,65 +868,7 @@
 			</div>
 		</section>
 
-		<!-- <section class="news-section">
-			<div class="auto-container">
-				
-				<div class="sec-title centered">
-					<div class="title">Our Blogs</div>
-					<h2>Latest News <br> Posts</h2>
-				</div>
-
-				<div class="row clearfix">
-				
-					<?php
-					require('blog/config.php');
-					$query2 = "SELECT * FROM blogs ORDER BY id DESC LIMIT 3";
-					$run2 = mysqli_query($con, $query2);
-					if (!$run2) {
-						die("Query Failed " . mysqli_error($con));
-					} else {
-						while ($row2 = mysqli_fetch_assoc($run2)) {
-							$id = $row2['id'];
-							$name = $row2['name'];
-							$img = $row2['img'];
-							$date = $row2['date'];
-							$author = $row2['author'];
-							$content = $row2['content'];
-							?>
-							<div class="news-block col-lg-4 col-md-6 col-sm-12">
-								<div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-									<div class="image">
-										<a href="blog/blog-single?id=<?php echo $id; ?>"><img
-												src="assets/images/blogs/<?php echo $img ?>" alt="Houston Family Law Attorney"
-												loading="lazy" /></a>
-										<div class="post-date">
-											<?php echo $date ?>
-										</div>
-									</div>
-									<div class="lower-content">
-										<h4><a href="blog/blog-single?id=<?php echo $id; ?>">
-												<?php echo $name ?>
-											</a></h4>
-										<div class="text">
-											<div class="text">
-												<?php echo substr($content, 0, 100) . "..." ?>
-											</div>
-											<div class="btn-three-outer"><a href="blog/blog-single?id=<?php echo $id; ?>"
-													class="theme-btn btn-style-three"><span class="txt">Read More</span></a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<?php
-						}
-					}
-					?>
-				
-			</div>
-
-	</section> -->
+	
 
 		<section class="benefits-section">
 			<div class="side-image"></div>

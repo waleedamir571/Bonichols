@@ -50,6 +50,95 @@ body {
    
 }
 
+.pb-20{
+    padding-bottom: 20px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.fs-16{
+    color: #000;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+.lorem{
+    color: #000;
+text-align: center;
+
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 136.364% */
+text-transform: uppercase;
+}
+
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1A5EA3; /* Light blue with some transparency */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: #fff;
+    padding: 20px;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.overlay .panel-body {
+    color: #fff; /* Text color */
+}
+
+.overlay ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.overlay li {
+    margin: 10px 0;
+}
+
+.overlay a {
+    color: #fff;
+    text-decoration: none;
+}
+.p-16{
+    color: #FFF;
+
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+
+.overlay a:hover {
+    text-decoration: underline;
+}
+
+.main-section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* background: url(../images/about/contactbg.png) center center no-repeat; */
+    background-size: cover;
+    background: #1A5EA3;
+    /* opacity: 1; */
+}
+
 .blog-posts{
     color: #000;
 font-size: 45px;
@@ -174,7 +263,7 @@ h1 {
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 45px;
 }
 
 h3 {
@@ -5975,6 +6064,7 @@ line-height: 26px;
     position: relative;
     padding: 0px 0px 90px;
     padding-top: 55px;
+    background: #F3F3F3;
 }
 .clients-section.style-three {
     padding: 90px 0px;
@@ -8622,7 +8712,7 @@ line-height: 26px;
 
 .benefits-section .images-column .inner-column {
     position: relative;
-    padding-top: 0px;
+    padding-top: 15%;
     padding-left: 0px;
     padding-bottom: 0px;
 }
@@ -9268,7 +9358,7 @@ line-height: 26px;
 /*** ====================================================================	Page Title====================================================================***/
 .page-title {
     /* position: inherit; */
-    /* padding: 300px; */
+    padding: 300px;
     background-size: cover;
     height: 700px;
     background-repeat: no-repeat;
@@ -9303,12 +9393,11 @@ line-height: 26px;
     position: relative;
     color: #ffffff;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 60px;
     line-height: 1.2em;
     margin-bottom: 10px;
     text-transform: capitalize;
 }
-
 .page-title h2 {
     position: relative;
     color: #ffffff;

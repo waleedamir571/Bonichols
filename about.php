@@ -63,22 +63,23 @@
 							<div class="text-li">Bo Nichols Law was established in September of 2013, but John “Bo”
 								Nichols
 								is no stranger to the practice of Family Law.
-								<br>
+								<br><br>
 								A graduate of South Texas Law in 1996, John “Bo” Nichols was a partner at Jenkins &
 								Kamin and Nichols Law before starting his solo practice. Mr. Nichols is Board Certified
 								by the Texas Board of Legal Specialization in Family Law and is admitted to practice in
 								the Texas Supreme Court, the Texas State Court of Appeals, the Texas State District
 								Courts and the United States District Courts in the Southern District of Texas since
 								1997.
-								<br>
+								<br><br>
 								Bo Nichols is on the faculty of the National Family Law Trial Institute, where he holds
 								a teaching position and he has been honored as a Best Lawyer in America from 2009 to the
 								present as well as a Texas Super Lawyer in Texas Monthly Magazine every year since 2005.
 								He is a Fellow of the American Academy.
 							</div>
+							<br>
 						</div>
 
-						<div class="btn-three-outer"><a href="about" class="theme-btn btn-style-three"><span
+						<div class="btn-three-outer"><a href="index.php" class="theme-btn btn-style-three"><span
 									class="txt">Read More</span></a></div>
 					</div>
 					<div class="image-column col-lg-6 pad-right-0 col-md-12 col-sm-12 mob-h">

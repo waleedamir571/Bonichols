@@ -3,23 +3,7 @@
 
 <!DOCTYPE html>
 <html>
-<?php
-require("config.php");
-$id = 11;
-    $query = "SELECT * FROM blogs WHERE id = '$id'";
-    $run = mysqli_query($con,$query);
-    if(!$run){
-        die("Query Failed " . mysqli_error($con));
-    }else{
-        while($row = mysqli_fetch_assoc($run)){
-            $name = $row['name'];
-            $author = $row['author'];
-            $img = $row['img'];
-            $content = $row['content'];
-            $date = $row['date'];
-        }
-}
-    ?>
+
 
 <head>
     <meta charset="utf-8">
