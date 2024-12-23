@@ -50,6 +50,10 @@ body {
    
 }
 
+.baseline{
+    align-items: baseline;
+}
+
 .pb-20{
     padding-bottom: 20px;
 }
@@ -263,7 +267,7 @@ h1 {
 }
 
 h2 {
-    font-size: 45px;
+    font-size: 40px;
 }
 
 h3 {
@@ -558,6 +562,13 @@ img {
 .btn-style-one .txt {
     position: relative;
     z-index: 1;
+}
+
+.benefits-section .images-column .inner-column1 {
+    position: relative;
+    padding-top: 0%;
+    padding-left: 0px;
+    padding-bottom: 0px;
 }
 
 .btn-style-one:before {
@@ -8712,7 +8723,7 @@ line-height: 26px;
 
 .benefits-section .images-column .inner-column {
     position: relative;
-    padding-top: 15%;
+    padding-top: 20%;
     padding-left: 0px;
     padding-bottom: 0px;
 }
