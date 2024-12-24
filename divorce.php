@@ -413,20 +413,16 @@
 									<button class="btn btn-link" type="button" data-toggle="collapse"
 										data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 										What should I consider when filing for divorce?
-
-
+										<i class="fa fa-plus"></i>
 									</button>
 								</h5>
 							</div>
-
 							<div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
 								data-parent="#faqExample">
 								<div class="card-body">
 									When filing for divorce, consider factors such as property division, child custody,
 									spousal support, and your legal rights. Our attorneys guide you through each step,
 									ensuring that all critical aspects are addressed.
-
-
 								</div>
 							</div>
 						</div>
@@ -436,7 +432,7 @@
 									<button class="btn btn-link collapsed" type="button" data-toggle="collapse"
 										data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
 										How long does the divorce process typically take?
-
+										<i class="fa fa-plus"></i>
 									</button>
 								</h5>
 							</div>
@@ -447,8 +443,6 @@
 									complexity, and whether disputes arise. While uncontested divorces may conclude in a
 									few months, contested cases can take longer. We work to expedite the process
 									wherever possible.
-
-
 								</div>
 							</div>
 						</div>
@@ -459,7 +453,7 @@
 										data-target="#collapseThree" aria-expanded="false"
 										aria-controls="collapseThree">
 										Can a divorce agreement be modified after it's finalized?
-
+										<i class="fa fa-plus"></i>
 									</button>
 								</h5>
 							</div>
@@ -469,51 +463,48 @@
 									Yes, certain aspects, like child custody or spousal support, can be modified if
 									circumstances change. Our team can help you request modifications to reflect your
 									current situation.
-
 								</div>
 							</div>
 						</div>
 						<div class="card">
-							<div class="card-header p-2" id="heading4">
+							<div class="card-header p-2" id="headingFour">
 								<h5 class="mb-0">
 									<button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-										data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+										data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
 										Do I need a lawyer for an uncontested divorce?
+										<i class="fa fa-plus"></i>
 									</button>
 								</h5>
 							</div>
-							<div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#faqExample">
+							<div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+								data-parent="#faqExample">
 								<div class="card-body">
 									Even in uncontested cases, having a lawyer can ensure that all paperwork is properly
 									completed and that you’re fully aware of your rights. We help avoid mistakes and
 									finalize agreements that protect your interests.
-
 								</div>
 							</div>
 						</div>
 						<div class="card">
-							<div class="card-header p-2" id="heading5">
+							<div class="card-header p-2" id="headingFive">
 								<h5 class="mb-0">
 									<button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-										data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+										data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
 										How is property divided in a divorce?
-
-
+										<i class="fa fa-plus"></i>
 									</button>
 								</h5>
 							</div>
-							<div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#faqExample">
+							<div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+								data-parent="#faqExample">
 								<div class="card-body">
 									Texas is a community property state, meaning marital assets are generally divided
 									equally. However, factors like each spouse’s contribution and financial needs are
 									considered. Our attorneys help secure a fair division that reflects your
 									circumstances.
-
-
 								</div>
 							</div>
 						</div>
-
 					</div>
 				</div>
 
@@ -524,3 +515,6 @@
 	<!--End pagewrapper-->
 
 	<?php include('assets/includes/footer.php'); ?>
+
+
+	

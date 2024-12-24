@@ -686,6 +686,62 @@
 		width:100%;
 		margin:0px;
 	}
+
+	.btn-link {
+		white-space: normal; /* Allows text to break into multiple lines */
+		word-break: break-word; /* Breaks long words to fit the width */
+	}
+
+	.accordion .btn-link {
+		color: #333;
+		text-decoration: none;
+		font-size: 18px;
+		font-weight: 500;
+		display: contents;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+	}
+
+	
+
+	.page-title h1 {
+		position: relative;
+		color: #ffffff;
+		font-weight: 700;
+		font-size: 22px;
+		line-height: 1.2em;
+		margin-bottom: 10px;
+		text-transform: capitalize;
+	}
+
+	.email {
+		color: #000;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 28px;
+		text-transform: uppercase;
+	}
+
+	.contact-us {
+		color: #FFF;
+		
+		font-size: 23px;
+		font-weight: 700;
+		line-height: 42px;
+		text-transform: uppercase;
+	}
+	
+	.page-title {
+		/* position: inherit; */
+		padding: 300px;
+		background-size: cover;
+		height: auto;
+		background-repeat: no-repeat;
+		background-position: center center;
+		/* background-attachment: fixed; */
+	}
 	
 	.header-style-three .header-top{
 		padding:15px 0px !important;

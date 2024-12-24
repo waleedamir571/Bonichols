@@ -180,6 +180,44 @@ line-height: 28px; /* 100% */
 text-transform: uppercase;
 }
 
+.accordion .card {
+    border: none;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.accordion .card-header {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 15px;
+    cursor: pointer;
+}
+.accordion .btn-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.accordion .btn-link:focus {
+    text-decoration: none;
+    box-shadow: none;
+}
+.accordion .btn-link i {
+    transition: transform 0.3s ease;
+}
+.accordion .btn-link.collapsed i {
+    transform: rotate(-90deg);
+}
+.accordion .card-body {
+    background: #fff;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+}
+
   .email-text {
     font-size: 0.9rem;
     color: #666;

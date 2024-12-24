@@ -1071,3 +1071,10 @@
         });
         (function(ng,a,g,e,l,i,ve){l = a.createElement(g),l.async=1,l.src=ng+e;var c=a.getElementsByTagName(g)[0];c.parentNode.insertBefore(l,c);var i=a.createElement('div');var ve='style';i.id='nGageLH',i[ve].position='fixed',i[ve].right='0px',i[ve].bottom='0px',i[ve].zIndex='5000',a.body&&a.body.appendChild(i);}('https://messenger.ngageics.com/ilnksrvr.aspx?websiteid=',document,'script','42-194-195-245-106-184-63-6'));
 
+
+		// Toggle plus/minus icon on show/hide of collapse element
+		$('.collapse').on('show.bs.collapse', function () {
+			$(this).parent().find('.fas').removeClass('fa-plus').addClass('fa-minus');
+		}).on('hide.bs.collapse', function () {
+			$(this).parent().find('.fas').removeClass('fa-minus').addClass('fa-plus');
+		});
