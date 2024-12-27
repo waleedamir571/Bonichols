@@ -111,8 +111,6 @@
 					<div class="row clearfix baseline">
 
 						<!-- Title Column -->
-
-
 						<!-- Form Column -->
 						<div class="form-column  col-md-6 ">
 							<p class="p-16">In a divorce, having legal guidance is essential to navigate the complex
