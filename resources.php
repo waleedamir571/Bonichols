@@ -20,8 +20,8 @@
 				</div>
 				<div class="pull-right">
 					<ul class="page-breadcrumb">
-						<li><a href="./">home</a></li>
-						<li>Resources</li>
+						<li><a href="./"></a></li>
+						<li></li>
 					</ul>
 				</div>
 			</div>

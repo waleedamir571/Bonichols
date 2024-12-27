@@ -74,6 +74,20 @@ switch ($functions) {
         $url = $baseUrl . "services";
 
         break;
+
+        case "asset-division.php";
+        $title_name = "Asset Division ";
+        $description = "Asset Division";
+        $url = $baseUrl . "asset-division";
+
+        break;
+
+        case "premartial-agreement.php";
+        $title_name = "Premartial-agreement ";
+        $description = "Premartial-agreement";
+        $url = $baseUrl . "premartial-agreement";
+
+        break;
         
   
 
