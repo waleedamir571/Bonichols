@@ -641,9 +641,6 @@
             </div>
         </div>
 
-
-
-
         <script>
             // Total pages
             const totalPages = 2;
@@ -745,78 +742,5 @@
 
 </body>
 
-
-
 </html>
 
-<div class="container">
-
-    <div class="row">
-
-        <div class="col-md-4">
-
-        </div>
-
-        <div class="col-md-4">
-
-        </div>
-
-        <div class="col-md-4">
-
-        </div>
-
-    </div>
-
-    <div class="row">
-
-        <div class="col-md-4">
-
-        </div>
-
-        <div class="col-md-4">
-
-        </div>
-
-        <div class="col-md-4">
-
-        </div>
-
-    </div>
-
-    <div class="row">
-
-        <div class="col-md-4">
-
-        </div>
-
-        <div class="col-md-4">
-
-        </div>
-
-        <div class="col-md-4">
-
-        </div>
-
-    </div>
-
-    <div class="row">
-
-        <div class="col-md-4">
-         <h1>test</h1>
-        </div>
-
-        <div class="col-md-4">
-        <h2>eese</h2>
-        </div>
-
-        <div class="col-md-4">
-         <h3>qwerty</h3>
-        </div>
-
-        <div class="col-md-4">
-            <h3>qwerty</h3>
-           </div>
-
-    </div>
-
-</div>
