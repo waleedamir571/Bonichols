@@ -10,8 +10,10 @@
                     <!-- Info List -->
                     <ul class="info-list">
                         <li><span class="icon fa fa-location-arrow"></span>1201 Sheperd Drive, Houston Texas 77007</li>
-                        <li><span class="icon fa fa-phone"></span> <a href="tel:+1 (713) 227-4747"> +1 (713) 227-4747</a></li>
-                        <li><span class="icon fa fa-envelope-o"></span> <a href="mailto:bnichols@bonicholslaw.com"> bnichols@bonicholslaw.com</a></li>
+                        <li><span class="icon fa fa-phone"></span> <a href="tel:+1 (713) 227-4747"> +1 (713)
+                                227-4747</a></li>
+                        <li><span class="icon fa fa-envelope-o"></span> <a href="mailto:bnichols@bonicholslaw.com">
+                                bnichols@bonicholslaw.com</a></li>
                     </ul>
                 </div>
             </div>
@@ -33,7 +35,9 @@
                 <nav class="main-menu navbar-expand-md">
                     <div class="navbar-header">
                         <!-- Toggle Button -->
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
