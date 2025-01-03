@@ -23,9 +23,9 @@
         font-size: 19px;
     }
 
-    .content-page {
+    /* .content-page {
         display: none;
-    }
+    } */
 
     .content-page.active {
         display: block;
@@ -137,7 +137,7 @@
 
         <!--Sidebar Page Container-->
         <div class="sidebar-page-container">
-            <div id="contentPage1" class="content-page">
+            <div id="" class="content-page">
                 <div class="auto-container">
                     <div class="row clearfix">
 
@@ -257,6 +257,8 @@
                             </div>
 
                         </div>
+
+
 
                     </div>
 
@@ -493,19 +495,15 @@
 
 
                     </div>
-                </div>
-            </div>
-            <div id="contentPage2" class="content-page">
-                <div class="auto-container">
                     <div class="row clearfix">
 
                         <!--Content Side-->
+
                         <div class="content-side col-md-4 ">
                             <div class="news-block-three">
                                 <div class="inner-box">
                                     <div class="image">
-                                        <a href="child-custody-attorney.php"><img
-                                                src="../assets/images/blogs/Two-Parents-Fighting-Over-Chil.jpg"
+                                        <a href="child-custody-attorney.php"><img src="../assets/images/blogs/9.png"
                                                 alt=""></a>
                                     </div>
                                     <div class="lower-content">
@@ -513,65 +511,22 @@
                                             <li><span class="icon flaticon-user-1"></span> By <span
                                                     class="theme-color">Bo
                                                     Nichols</span></li>
-                                            <li><span class="icon flaticon-calendar-1"></span> June 27, 2024</li>
+                                            <li><span class="icon flaticon-calendar-1"></span> April 07, 2022</li>
                                         </ul>
                                         <h3>
 
-                                            Parental Guide Before Hiring a Child Custody Attorney in Houston </h3>
-
-
-
-
-
-                                        <div class="my-texttt">
-                                            <div class="text">Navigating the complexities of infant custody may be
-                                                daunting
-                                                for any determination. Hiring a Child Custody Attorney in Houston is a
-                                                crucial step in ensuring the satisfactory interests of your toddler are
-                                                protected.
-                                            </div>
-
-                                            <a class="read-more" href="child-custody-attorney">Read
-                                                More</a>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="content-side col-md-4 ">
-                            <div class="news-block-three">
-                                <div class="inner-box">
-                                    <div class="image">
-                                        <a href="child-custody-attorney.php"><img src="../assets/images/blogs/blog2.png"
-                                                alt=""></a>
-                                    </div>
-                                    <div class="lower-content">
-                                        <ul class="post-meta">
-                                            <li><span class="icon flaticon-user-1"></span> By <span
-                                                    class="theme-color">Bo
-                                                    Nichols</span></li>
-                                            <li><span class="icon flaticon-calendar-1"></span> June 27, 2024</li>
-                                        </ul>
-                                        <h3>
-
-                                            The Impact of Divorce Litigation on Your Emotional Well-being </h3>
+                                            Different Types of Divorces Explained </h3>
 
                                         <h3> </h3>
 
                                         <div class="my-texttt">
-                                            <div class="text">Divorce is a life-altering event that can have profound
-                                                effects on your emotional well-being. The dissolution of a marriage
-                                                often
-                                                brings with it a whirlwind of emotions, from sadness and anger to relief
-                                                and
-                                                fear..
+                                            <div class="text">The divorce process can be a difficult time for any
+                                                family. There are two types of divorces that couples may choose from:
+                                                "divorce from bed and board," which is available in some states, or an
+                                                official ending called ' finalized.'
                                             </div>
 
-                                            <a class="read-more" href="best-litigated-divorce-attorney-in-texas">Read
+                                            <a class="read-more" href="different-types-of-divorces">Read
                                                 More</a>
                                         </div>
                                     </div>
@@ -584,7 +539,7 @@
                             <div class="news-block-three">
                                 <div class="inner-box">
                                     <div class="image">
-                                        <a href="child-custody-attorney.php"><img src="../assets/images/blogs/blog3.png"
+                                        <a href="child-custody-attorney.php"><img src="../assets/images/blogs/10.png"
                                                 alt=""></a>
                                     </div>
                                     <div class="lower-content">
@@ -592,22 +547,56 @@
                                             <li><span class="icon flaticon-user-1"></span> By <span
                                                     class="theme-color">Bo
                                                     Nichols</span></li>
-                                            <li><span class="icon flaticon-calendar-1"></span> August 29, 2022</li>
+                                            <li><span class="icon flaticon-calendar-1"></span> February 22, 2022 </li>
                                         </ul>
                                         <h3>
 
-                                            Bo Nichols named in the 2023 Best Lawyers Awards </h3>
-
-                                        <h3> </h3>
+                                            The Concept of Child Support and the Real Purpose Behind It</h3>
 
                                         <div class="my-texttt">
-                                            <div class="text">After his impressive feats of being recognized as the best
-                                                Lawyer in America from 2009 along with the title of Texas Super Lawyer
-                                                since
-                                                2005.
+                                            <div class="text">Child support is a vital need in most cases, where one
+                                                parent pays the other financial assistance to provide for their child or
+                                                children.
                                             </div>
 
-                                            <a class="read-more" href="best-lawyer-in-houston">Read
+                                            <a class="read-more" href="concept-of-child-support">Read
+                                                More</a>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="content-side col-md-4 ">
+                            <div class="news-block-three">
+                                <div class="inner-box">
+                                    <div class="image">
+                                        <a href="child-custody-attorney.php"><img src="../assets/images/blogs/11.png"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="lower-content">
+                                        <ul class="post-meta">
+                                            <li><span class="icon flaticon-user-1"></span> By <span
+                                                    class="theme-color">Bo
+                                                    Nichols</span></li>
+                                            <li><span class="icon flaticon-calendar-1"></span> February 16, 2022</li>
+                                        </ul>
+                                        <h3>
+
+                                            When It's the Right Time to Seek a Divorce Lawyer</h3>
+
+
+
+                                        <div class="my-texttt">
+                                            <div class="text">It's no surprise that there are thousands of blogs,
+                                                self-help websites, and legal advice sites available to you in today's
+                                                internet-driven world.
+                                            </div>
+
+                                            <a class="read-more" href="divorce-lawyer">Read
                                                 More</a>
                                         </div>
                                     </div>
@@ -615,31 +604,108 @@
                             </div>
 
                         </div>
+
+
 
                     </div>
+                    <div class="row clearfix">
 
-                   
+                        <!--Content Side-->
+
+                        <div class="content-side col-md-4 ">
+                            <div class="news-block-three">
+                                <div class="inner-box">
+                                    <div class="image">
+                                        <a href="child-custody-attorney.php"><img src="../assets/images/blogs/12.png"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="lower-content">
+                                        <ul class="post-meta">
+                                            <li><span class="icon flaticon-user-1"></span> By <span
+                                                    class="theme-color">Bo
+                                                    Nichols</span></li>
+                                            <li><span class="icon flaticon-calendar-1"></span> January 26, 2022</li>
+                                        </ul>
+                                        <h3>
+
+                                            Child Support Arrears – What If Non-Custodial Parents Do Not Pay Child
+                                            Support? </h3>
+
+                                        <h3> </h3>
+
+                                        <div class="my-texttt">
+                                            <div class="text">Child support intends to level the share of
+                                                responsibilities between you and your co-parent so that each parent
+                                                shares the financial burdens of the child’s upbringing.
+                                            </div>
+
+                                            <a class="read-more" href="child-support-arrears">Read
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="content-side col-md-4 ">
+                            <div class="news-block-three">
+                                <div class="inner-box">
+                                    <div class="image">
+                                        <a href="child-custody-attorney.php"><img src="../assets/images/blogs/13.png"
+                                                alt=""></a>
+                                    </div>
+                                    <div class="lower-content">
+                                        <ul class="post-meta">
+                                            <li><span class="icon flaticon-user-1"></span> By <span
+                                                    class="theme-color">Bo
+                                                    Nichols</span></li>
+                                            <li><span class="icon flaticon-calendar-1"></span> January 25, 2022 </li>
+                                        </ul>
+                                        <h3>
+
+                                            Divorce Mediator Vs. Divorce Lawyer – What To Choose?</h3>
+
+                                        <div class="my-texttt">
+                                            <div class="text">No matter what your circumstances are and in which state
+                                                you live, the decision to get a divorce is stressful and tough.
+                                            </div>
+
+                                            <a class="read-more" href="divorce-mediator-vs-divorce-lawyer">Read
+                                                More</a>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
                 </div>
             </div>
 
+
         </div>
 
-        <div class="ptb-50">
+        <!-- <div class="ptb-50">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="pagination">
-                            <!-- Left Arrow -->
+                           
                             <a class="arrow" id="prevPage">&#x276E;</a>
-                            <!-- Page Numbers -->
+                           
                             <div id="pageNumbers"></div>
-                            <!-- Right Arrow -->
+                          
                             <a class="arrow" id="nextPage">&#x276F;</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <script>
             // Total pages
@@ -743,4 +809,3 @@
 </body>
 
 </html>
-

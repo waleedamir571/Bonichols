@@ -1,5 +1,16 @@
 <?php include 'partials/header.php'; ?>
 
+
+<style>
+    .news-block-three .inner-box .lower-content h3 {
+    position: relative;
+    line-height: 1.4em;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 12px;
+    color: black;
+}
+</style>
 <body class="hidden-bar-wrapper">
 
     <div class="page-wrapper">
@@ -16,16 +27,14 @@
                 <div class="clearfix">
                     <div class="pull-left">
                         <div class="text">
-                            <?php echo $name ?>
+                          
                         </div>
                     </div>
                     <div class="pull-right">
                         <ul class="page-breadcrumb">
                             <li><a href="../">home</a></li>
                             <li><a href="./">blogs</a></li>
-                            <li>
-                                <?php echo $name; ?>
-                            </li>
+                           
                         </ul>
                     </div>
                 </div>
@@ -75,39 +84,7 @@
                                 <div class="sidebar-title">
                                     <h4>Recent Post</h4>
                                 </div>
-                                <div class="widget-content">
-                                    <?php
-                                $query2 = "SELECT * FROM blogs ORDER BY id DESC LIMIT 3";
-                                $run2 =mysqli_query($con, $query2);
-                                if(!$run2){
-                                    die("Query Failed " . mysqli_error($con));
-                                }else{
-                                    while($row2 = mysqli_fetch_assoc($run2)){
-                                        $id2 = $row2['id'];
-                                        $name2 = $row2['name'];
-                                        $img2= $row2['img'];
-                                        $date2 = $row2['date'];
-                                        ?>
-                                    <article class="post">
-                                        <div class="post-inner">
-                                            <figure class="post-thumb"><img
-                                                    src="../assets/images/blogs/<?php echo $img2 ?>" alt=""><a
-                                                    href="blog-single?id=<?php echo $id2; ?>" class="overlay-box"><span
-                                                        class="icon fa fa-link"></span></a></figure>
-                                            <div class="text-left theme-color"><a
-                                                    href="blog-single?id=<?php echo $id2; ?>">
-                                                    <?php echo $name2 ?>
-                                                </a></div>
-                                            <div class="post-info">
-                                                <?php echo $date2 ?>
-                                            </div>
-                                        </div>
-                                    </article>
-                                    <?php
-                                    }
-                                }
-                                ?>
-                                </div>
+                               
                             </div>
                         </aside>
                     </div>
